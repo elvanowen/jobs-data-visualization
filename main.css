@@ -1,0 +1,51 @@
+body {
+	background-color: #f8f8f8;
+}
+
+body .container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px 2px rgba(0,0,0,.03);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.card .title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+svg {
+  margin: 0 auto;
+  display: block;
+}
+
+text {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#color-legend {
+  margin-top: 20px;
+}
+
+.dropdown-filter-majors,
+.dropdown-filter-majors .menu,
+.dropdown-filter-majors:hover {
+  border-color: rgba(34,36,38,.15) !important;
+}
+.dropdown-filter-majors .search {
+  margin-right: 20px;
+}

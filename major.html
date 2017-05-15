@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Major Prospect</title>
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="semantic-ui/semantic.css">
+  <link rel="stylesheet" href="semantic-ui/components/dropdown.min.css">
+  <link rel="stylesheet" href="semantic-ui/components/sidebar.min.css">
+  <link rel="stylesheet" href="semantic-ui/components/popup.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="d3.min.js"></script>
+  <script type="text/javascript" src="underscore-min.js"></script>
+  <script type="text/javascript" src="semantic-ui/semantic.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/dropdown.min.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/sidebar.min.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/popup.min.js"></script>
+  <script type="text/javascript" src="js-cookie.js"></script>
+</head>
+<body style="font-family:'Robot', sans-serif;">
+  <div class="container-fluid" style="margin:0; padding:0">
+    <div class="header-page" style="background:#42a5f5; height:150px;">
+      <h1 class="major-title" style="text-align:center; padding:60px; color:#fff; font-family:'Robot', sans-serif; font-size:36px"></h1>
+    </div>
+    
+    <div class="ui pointing menu menu-main" style="margin:0">
+      <a class="item active" href="index.html">Beranda</a>
+      <div class="right menu">
+        <div class="item" style="padding: .1em 0; min-width: 20em">
+          <div class="ui transparent fluid multiple search normal selection dropdown dropdown-filter-majors input" style="border-width: 0 0 0 1px; min-height: 0; padding-left: 10px; padding-right: 4em; border-radius: 0;">
+            <input type="hidden" name="majors">
+            <i class="dropdown icon"></i>
+            <div class="default text">Select Majors</div>
+            <div class="menu">
+              <div class="item" data-value="komputer">Komputer</div>
+              <div class="item" data-value="bisnis">Bisnis</div>
+              <div class="item" data-value="kedokteran">Kedokteran</div>
+              <div class="item" data-value="psikologi">Psikologi</div>
+              <div class="item" data-value="ekonomi">Ekonomi</div>
+              <div class="item" data-value="seni">Seni</div>
+              <div class="item" data-value="fisika">Fisika</div>
+              <div class="item" data-value="astronomi">Astronomi</div>
+              <div class="item" data-value="elektrik">Elektrik</div>
+              <div class="item" data-value="matematika">Matematika</div>
+              <div class="item" data-value="geografi">Geografi</div>
+              <div class="item" data-value="farmasi">Farmasi</div>
+              <div class="item" data-value="biologi">Biologi</div>
+              <div class="item" data-value="arsitek">Arsitek</div>
+              <div class="item" data-value="sipil">Sipil</div>
+              <div class="item" data-value="mesin">Mesin</div>
+              <div class="item" data-value="pertambangan">Pertambangan</div>
+              <div class="item" data-value="metalurgi">Metalurgi</div>
+              <div class="item" data-value="penerbangan">Penerbangan</div>
+              <div class="item" data-value="geologi">Geologi</div>
+              <div class="item" data-value="pertanian">Pertanian</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui basic segment" style="padding: 1em 3em 0;">
+      <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui segment" style="text-align: center; background:#8bc34a">
+            <h4 class="ui header" style="color:#28324a; padding-bottom:2px">Rata-Rata Pendapatan</h4>
+            <h1 style="margin:0; letter-spacing:2px">Rp 15.000.000, -</h1>
+            <h5 style="margin:3px">Peringkat 2 dari 21 Jurusan</h5>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui segment" style="text-align: center; background:#2196f3">
+            <h4 class="ui header" style="color:#28324a; padding-bottom:2px">Rata-Rata Biaya Pendidikan</h4>
+            <h1 style="margin:0; letter-spacing:2px">Rp 150.000.000, -</h1>
+            <h5 style="margin:3px">Peringkat 10 dari 21 Jurusan</h5>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui segment" style="text-align: center; background:#e91e63">
+            <h4 class="ui header" style="color:#28324a; padding-bottom:2px">Peminat Jurusan</h4>
+            <h1 style="margin:0; letter-spacing:2px">Rp 20.000, -</h1>
+            <h5 style="margin:3px">Peringkat 12 dari 21 Jurusan</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 30px">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ui segment">
+                <h4 class="major-title" style="font-family:'Roboto', sans-serif; color:#28324a"></h4>
+                <h5 id="description-major" style="font-weight:normal"></h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1>Word Cloud</h1>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 15px">
+            <div class="col-md-12">
+              <div class="ui segment">
+                <h4 style="padding:13px; font-family:'Roboto', sans-serif; color:#28324a">Prospek Pekerjaan</h4>
+                <svg id="job-chart" width="700" height="400"></svg>
+              </div>
+            </div>
+          </div>
+        </div>        
+        <div class="col-md-4" style="padding-left:0">
+          <div class="ui segment">
+            <h4 style="padding-lfet:13px; font-family:'Roboto', sans-serif;">Gender</h4>
+            <svg id="gender-chart" width="320" height="250"></svg>
+          </div>
+          <div class="ui segment">
+            <h4 class="ui header" style="text-align:center; color:#28324a">Daftar Universitas</h4>
+            <table class="ui single line table">
+              <thead>
+                <th>Nama</th>
+                <th>Lokasi</th>
+                <th>Kuota</th>
+                <th>Lulusan</th>
+              </thead>
+              <tbody id="university-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="major-chart.js"></script>
+  <script type="text/javascript" src="ui.js"></script>
+</body>

@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Major Prospect</title>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="semantic-ui/semantic.css">
+  <link rel="stylesheet" href="semantic-ui/components/dropdown.min.css">
+  <link rel="stylesheet" href="semantic-ui/components/sidebar.min.css">
+  <link rel="stylesheet" href="semantic-ui/components/popup.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="d3.min.js"></script>
+  <script type="text/javascript" src="underscore-min.js"></script>
+  <script type="text/javascript" src="semantic-ui/semantic.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/dropdown.min.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/sidebar.min.js"></script>
+  <script type="text/javascript" src="semantic-ui/components/popup.min.js"></script>
+  <script type="text/javascript" src="js-cookie.js"></script>
+</head>
+<body>
+  <div class="container-fluid" style="margin:0; padding:0">
+    <div class="header-page" style="background:#42a5f5; height:150px;">
+      <h1 style="text-align:center; padding:60px; color:#fff; font-family:'Robot', sans-serif; font-size:36px">
+        PROSPEK JURUSAN DI INDONESIA
+      </h1>
+    </div>
+    <div class="ui pointing menu menu-main" style="margin:0">
+      <a class="item active" href="index.html">Beranda</a>
+      <div class="right menu">
+        <div class="item" style="padding: .1em 0; min-width: 20em">
+          <div class="ui transparent fluid multiple search normal selection dropdown dropdown-filter-majors input" style="border-width: 0 0 0 1px; min-height: 0; padding-left: 10px; padding-right: 4em; border-radius: 0;">
+            <input type="hidden" name="majors">
+            <i class="dropdown icon"></i>
+            <div class="default text">Select Majors</div>
+            <div class="menu">
+              <div class="item" data-value="komputer">Komputer</div>
+              <div class="item" data-value="bisnis">Bisnis</div>
+              <div class="item" data-value="kedokteran">Kedokteran</div>
+              <div class="item" data-value="psikologi">Psikologi</div>
+              <div class="item" data-value="ekonomi">Ekonomi</div>
+              <div class="item" data-value="seni">Seni</div>
+              <div class="item" data-value="fisika">Fisika</div>
+              <div class="item" data-value="astronomi">Astronomi</div>
+              <div class="item" data-value="elektrik">Elektrik</div>
+              <div class="item" data-value="matematika">Matematika</div>
+              <div class="item" data-value="geografi">Geografi</div>
+              <div class="item" data-value="farmasi">Farmasi</div>
+              <div class="item" data-value="biologi">Biologi</div>
+              <div class="item" data-value="arsitek">Arsitek</div>
+              <div class="item" data-value="sipil">Sipil</div>
+              <div class="item" data-value="mesin">Mesin</div>
+              <div class="item" data-value="pertambangan">Pertambangan</div>
+              <div class="item" data-value="metalurgi">Metalurgi</div>
+              <div class="item" data-value="penerbangan">Penerbangan</div>
+              <div class="item" data-value="geologi">Geologi</div>
+              <div class="item" data-value="pertanian">Pertanian</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui basic segment" style="padding: 1em 4em 0;">
+      <div class="row" style="margin-bottom: 10px">
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui horizontal segments">
+            <div class="ui segment" style="background:#8bc34a">
+              <h3 style="margin:0">PERTANIAN</h3>
+              <h5 style="margin:0; font-weight:normal">Indeks Peminat Tertinggi</h5>
+            </div>
+            <div class="ui segment" style="background:#689f38">
+              <center><h3 style="margin-top:0.5em">123.234</h3></center>
+              <center><span style="color:#b71c1c; font-weight:bold"><i class="chevron down icon"></i>0.5%</span></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui horizontal segments">
+            <div class="ui segment" style="background:#2196f3">
+              <h3 style="margin:0">PSIKOLOGI</h3>
+              <h5 style="margin:0; font-weight:normal">Biaya Pendidikan Terendah</h5>
+            </div>
+            <div class="ui segment" style="background:#1976d2">
+              <center><h3 style="margin-top:0.5em">Rp 5.234.145</h3></center>
+              <center><span style="color:#b71c1c; font-weight:bold"><i class="chevron down icon"></i>0.3%</span></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="color:#fff">
+          <div class="ui horizontal segments">
+            <div class="ui segment" style="background:#e91e63">
+              <h3 style="margin:0">SIPIL</h3>
+              <h5 style="margin:0; font-weight:normal">Rata-Rata Pendapatan Tertinggi</h5>
+            </div>
+            <div class="ui segment" style="background:#c2185b">
+              <center><h3 style="margin-top:0.5em">Rp 14.500.234</h3></center>
+              <center><span style="color:#66bb6a; font-weight:bold"><i class="chevron up icon"></i>0.7%</span></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 15px">
+        <div class="col-md-9">
+          <div class="ui segment">
+            <div class="header">
+              <h4 style="padding:13px; font-family:'Roboto',sans-serif; color:#28324a">RATA-RATA PENDAPATAN BERDASARKAN JURUSAN</h4>
+            </div>
+            <svg id="salary-chart" width="850" height="300" style="margin-left: 20px"></svg>
+            <svg id="color-legend" width="850" height="18"></svg>
+          </div>
+        </div>
+        <div class="col-md-3" style="padding-left:0">
+          <div class="ui segments">
+            <div class="ui segment">
+              <h4 style="font-family:'Roboto', sans-serif; color:#28324a">JUDUL KETERANGAN</h4>
+            </div>
+            <div class="ui segment">
+              <h4 style="font-size:17px; font-weight:normal; line-height:1.8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom:30px">
+        <div class="col-md-6">
+          <div class="ui segment">
+            <div class="header">
+              <h4 style="padding:13px; font-family:'Roboto', sans-serif;">INDEKS PEMINAT JURUSAN</h4>
+            </div>
+            <svg id="passion-chart" width="540" height="200"></svg>
+          </div>
+        </div>
+
+        <div class="col-md-6" style="padding-left:0">
+          <div class="ui segment">
+            <div class="header">
+              <h4 style="padding:13px; font-family:'Roboto', sans-serif;">BIAYA PENDIDIKAN</h4>
+            </div>
+            <svg id="cost-chart" width="540" height="200"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="salary-graph.js"></script>
+  <script type="text/javascript" src="ui.js"></script>
+</body>
+</html>

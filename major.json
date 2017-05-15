@@ -1,0 +1,1259 @@
+{
+	"major": [ 
+		{
+			"Komputer" : {
+				"description" : "Informatika merupakan disiplin ilmu yang mempelajari transformasi fakta berlambang yaitu data maupun informasi pada mesin berbasis komputasi. Hal - hal yang dipelajari di jurusan ini antara lain teori informasi, ilmu informasi, sistem informasi, dan keamanan informasi.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 4342 },
+							{ "year" : 2012, "total" : 4534 },
+							{ "year" : 2013, "total" : 5119 },
+							{ "year" : 2014, "total" : 5257 },
+							{ "year" : 2015, "total" : 5586 },
+							{ "year" : 2016, "total" : 6068 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 423 },
+							{ "year" : 2012, "total" : 412 },
+							{ "year" : 2013, "total" : 515 },
+							{ "year" : 2014, "total" : 525 },
+							{ "year" : 2015, "total" : 523 },
+							{ "year" : 2016, "total" : 582 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 150, "graduate" : 138 },
+					{ "name" : "Binus", "location" : "Jakarta", "kuota" : 300, "graduate" : 280 },
+					{ "name" : "UMN", "location" : "Tangerang", "kuota" : 300, "graduate" : 286 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 200, "graduate": 190 },
+					{ "name" : "Telkom", "location" : "Bandung", "kuota" : 400, "graduate": 373 }
+				],
+				"jobs": [
+					{ "name" : "Software Engineer", "salary" : 12000000,  "employee" : 2023, "workload" : 8 },
+					{ "name" : "Data Engineer", "salary" : 13000000, "employee" : 893, "workload" : 8 },
+					{ "name" : "Data Analyst", "salary" : 18000000, "employee" : 732, "workload" : 8 },
+					{ "name" : "IT Consultant", "salary" : 20000000, "employee" : 732, "workload" : 5 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1953},
+					{"name" : "MENARIK", "total" : 580},
+					{"name" : "MEMBOSANKAN", "total" : 2149},
+					{"name" : "MENGASYIKAN", "total" : 3860},
+					{"name" : "LELAH", "total" : 4664},
+					{"name" : "BANYAK TUGAS", "total" : 4881},
+					{"name" : "SULIT", "total" : 725},
+					{"name" : "MUDAH", "total" : 3441},
+					{"name" : "BERMANFAAT", "total" : 1819},
+					{"name" : "UJIAN SULIT", "total" : 461},
+					{"name" : "BEGADANG", "total" : 1403},
+					{"name" : "IRIT", "total" : 4941},
+					{"name" : "PROSPEK LUAS", "total" : 2335},
+					{"name" : "KEREN", "total" : 2965},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2118},
+					{"name" : "BUTUH KETELITIAN", "total" : 1438},
+					{"name" : "TUGAS BERAGAM", "total" : 2171},
+					{"name" : "BANYAK LOMBA", "total" : 1088},
+					{"name" : "TIDAK SERU", "total" : 827},
+					{"name" : "BANYAK PEMINAT", "total" : 4715}
+				]
+			}
+		},
+		{
+			"Kewirausahaan" : {
+				"description" : "Kewirausahaan merupakan jurusan yang mempelajari aktivitas manusia yang berhubungan dengan produksi, distribusi, dan konsumsi terhadap barang dan jasa. Hal - hal yang dipelajari di antaranya daur perkembangan usaha, analisis risiko, dan perencanaan usaha.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 3094 },
+							{ "year" : 2012, "total" : 2391 },
+							{ "year" : 2013, "total" : 4028 },
+							{ "year" : 2014, "total" : 3982 },
+							{ "year" : 2015, "total" : 3872 },
+							{ "year" : 2016, "total" : 2983 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 1021 },
+							{ "year" : 2012, "total" : 1001 },
+							{ "year" : 2013, "total" : 973 },
+							{ "year" : 2014, "total" : 1201 },
+							{ "year" : 2015, "total" : 1289 },
+							{ "year" : 2016, "total" : 937 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "Prasmul", "location" : "Tangerang", "kuota" : 200, "graduate" : 188 },
+					{ "name" : "UPH", "location" : "Tangerang", "kuota" : 180, "graduate" : 165 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 150, "graduate" : 142 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 135 },
+					{ "name" : "UNAIR", "location" : "Surabaya", "kuota" : 150, "graduate": 137 }
+				],
+				"jobs": [
+					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
+					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
+					{ "name" : "Business Analyst", "salary": 13000000, "employee" : 1510, "workload": 8 },
+					{ "name" : "Project Manager", "salary": 10000000, "employee": 1842, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2730},
+					{"name" : "MENARIK", "total" :1895},
+					{"name" : "MEMBOSANKAN", "total" : 1614},
+					{"name" : "MENGASYIKAN", "total" : 1082},
+					{"name" : "LELAH", "total" : 3410},
+					{"name" : "BANYAK TUGAS", "total" : 3604},
+					{"name" : "SULIT", "total" :1321},
+					{"name" : "MUDAH", "total" : 1417},
+					{"name" : "BERMANFAAT", "total" : 1553},
+					{"name" : "UJIAN SULIT", "total" :1530},
+					{"name" : "BEGADANG", "total" : 3502},
+					{"name" : "IRIT", "total" : 4532},
+					{"name" : "PROSPEK LUAS", "total" : 4747},
+					{"name" : "KEREN", "total" : 1637},
+					{"name" : "SALARY MENJANJIKAN", "total" : 508},
+					{"name" : "BUTUH KETELITIAN", "total" : 1724},
+					{"name" : "TUGAS BERAGAM", "total" : 4440},
+					{"name" : "BANYAK LOMBA", "total" : 2343},
+					{"name" : "TIDAK SERU", "total" :823},
+					{"name" : "BANYAK PEMINAT", "total" : 24}
+				]	
+			}
+		},
+		{
+			"Kedokteran" : {
+				"description" : "Kedokteran adalah jurusan yang mempelajari diagnosis, pengobatan, dan pencegahan penyakit. Hal - hal yang dipelajari antara lain ilmu kedokteran dasar umum, ilmu kedokteran dasar klinik, ilmu kedokteran medik, ilmu kedokteran bedah, ilmu kesehatan masyarakat.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1323 },
+							{ "year" : 2012, "total" : 1371 },
+							{ "year" : 2013, "total" : 1524 },
+							{ "year" : 2014, "total" : 1582 },
+							{ "year" : 2015, "total" : 1484 },
+							{ "year" : 2016, "total" : 1594 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 753 },
+							{ "year" : 2012, "total" : 651 },
+							{ "year" : 2013, "total" : 857 },
+							{ "year" : 2014, "total" : 686 },
+							{ "year" : 2015, "total" : 606 },
+							{ "year" : 2016, "total" : 711 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "UI", "location" : "Depok", "kuota" : 150, "graduate" : 143 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 },
+					{ "name" : "Untar", "location" : "Jakarta", "kuota" : 120, "graduate" : 117 },
+					{ "name" : "Marantha", "location" : "Bandung", "kuota" : 150, "graduate": 138 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 134 }
+				],
+				"jobs": [
+					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
+					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
+					{ "name" : "Business Analyst", "salary": 13000000, "employee" : 1510, "workload": 8 },
+					{ "name" : "Project Manager", "salary": 10000000, "employee": 1842, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2271},
+					{"name" : "MENARIK", "total" : 381},
+					{"name" : "MEMBOSANKAN", "total" : 3724},
+					{"name" : "MENGASYIKAN", "total" : 234},
+					{"name" : "LELAH", "total" : 4678},
+					{"name" : "BANYAK TUGAS", "total" : 4398},
+					{"name" : "SULIT", "total" : 3289},
+					{"name" : "MUDAH", "total" : 4678},
+					{"name" : "BERMANFAAT", "total" : 4899},
+					{"name" : "UJIAN SULIT", "total" : 1939},
+					{"name" : "BEGADANG", "total" : 1021},
+					{"name" : "IRIT", "total" : 4321},
+					{"name" : "PROSPEK LUAS", "total" : 4803},
+					{"name" : "KEREN", "total" : 4453},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2605},
+					{"name" : "BUTUH KETELITIAN", "total" : 3197},
+					{"name" : "TUGAS BERAGAM", "total" : 1596},
+					{"name" : "BANYAK LOMBA", "total" : 1856},
+					{"name" : "TIDAK SERU", "total" : 2114},
+					{"name" : "BANYAK PEMINAT", "total" : 4067}
+				]	
+			}
+		},
+		{
+			"Psikologi" : {
+				"description" : "Psikologi merupakan jurusan yang mempelajari mengenai perilaku dan fungsi mental manusia secara ilmiah.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1094 },
+							{ "year" : 2012, "total" : 791 },
+							{ "year" : 2013, "total" : 828 },
+							{ "year" : 2014, "total" : 1082 },
+							{ "year" : 2015, "total" : 872 },
+							{ "year" : 2016, "total" : 783 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 321 },
+							{ "year" : 2012, "total" : 401 },
+							{ "year" : 2013, "total" : 473 },
+							{ "year" : 2014, "total" : 301 },
+							{ "year" : 2015, "total" : 589 },
+							{ "year" : 2016, "total" : 337 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "UI", "location" : "Depok", "kuota" : 100, "graduate" : 89 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 120, "graduate" : 111 },
+					{ "name" : "UNPAD", "location" : "Jatinangor", "kuota" : 100, "graduate" : 94 },
+					{ "name" : "Maranatha", "location" : "Bandung", "kuota" : 150, "graduate": 132 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
+				],
+				"jobs": [
+					{ "name" : "Psikolog", "salary" : 10000000,  "employee" : 413, "workload" : 6 },
+					{ "name" : "HRD", "salary" : 6000000, "employee" : 1022, "workload" : 8},
+					{ "name": "Consultant", "salary": 15000000, "employee": 573, "workload": 6}
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1224},
+					{"name" : "MENARIK", "total" : 1385},
+					{"name" : "MEMBOSANKAN", "total" : 918},
+					{"name" : "MENGASYIKAN", "total" : 445},
+					{"name" : "LELAH", "total" : 2381},
+					{"name" : "BANYAK TUGAS", "total" : 2245},
+					{"name" : "SULIT", "total" : 4563},
+					{"name" : "MUDAH", "total" : 4567},
+					{"name" : "BERMANFAAT", "total" : 3874},
+					{"name" : "UJIAN SULIT", "total" : 526},
+					{"name" : "BEGADANG", "total" : 2377},
+					{"name" : "IRIT", "total" : 4544},
+					{"name" : "PROSPEK LUAS", "total" : 256},
+					{"name" : "KEREN", "total" : 9},
+					{"name" : "SALARY MENJANJIKAN", "total" : 1987},
+					{"name" : "BUTUH KETELITIAN", "total" : 3661},
+					{"name" : "TUGAS BERAGAM", "total" : 1295},
+					{"name" : "BANYAK LOMBA", "total" : 4971},
+					{"name" : "TIDAK SERU", "total" : 1749},
+					{"name" : "BANYAK PEMINAT", "total" : 3358}
+				]
+			}
+		},
+		{
+			"Ekonomi" : {
+				"description" : "Ekonomi merupakan jurusan yang mempelajari aktivitas manusia yang berhubungan dengan produksi, distribusi, dan konsumsi terhadap barang dan jasa. Hal - hal yang dipelajari antara lain ekonomi makro, ekonomi mikro, dan ekonomi pembangunan.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 2094 },
+							{ "year" : 2012, "total" : 1391 },
+							{ "year" : 2013, "total" : 3028 },
+							{ "year" : 2014, "total" : 2982 },
+							{ "year" : 2015, "total" : 2872 },
+							{ "year" : 2016, "total" : 1983 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 523 },
+							{ "year" : 2012, "total" : 512 },
+							{ "year" : 2013, "total" : 715 },
+							{ "year" : 2014, "total" : 625 },
+							{ "year" : 2015, "total" : 623 },
+							{ "year" : 2016, "total" : 782 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "Prasmul", "location" : "Tangerang", "kuota" : 200, "graduate" : 189 },
+					{ "name" : "UPH", "location" : "Tangerang", "kuota" : 230, "graduate" : 216 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 170, "graduate" : 157 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 137 },
+					{ "name" : "UNAIR", "location" : "Surabaya", "kuota" : 150, "graduate": 133 }
+				],
+				"jobs": [
+					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
+					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
+					{ "name" : "Business Analyst", "salary" : 13000000, "employee" : 1510, "workload" : 8 },
+					{ "name" : "Project Manager", "salary" : 10000000, "employee" : 1842, "workload" : 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2670},
+					{"name" : "MENARIK", "total" : 4818},
+					{"name" : "MEMBOSANKAN", "total" : 1770},
+					{"name" : "MENGASYIKAN", "total" : 443},
+					{"name" : "LELAH", "total" : 3066},
+					{"name" : "BANYAK TUGAS", "total" : 69},
+					{"name" : "SULIT", "total" : 3674},
+					{"name" : "MUDAH", "total" : 4588},
+					{"name" : "BERMANFAAT", "total" : 3124},
+					{"name" : "UJIAN SULIT", "total" : 3737},
+					{"name" : "BEGADANG", "total" : 3069},
+					{"name" : "IRIT", "total" : 1495},
+					{"name" : "PROSPEK LUAS", "total" : 3629},
+					{"name" : "KEREN", "total" : 2191},
+					{"name" : "SALARY MENJANJIKAN", "total" : 3365},
+					{"name" : "BUTUH KETELITIAN", "total" : 3603},
+					{"name" : "TUGAS BERAGAM", "total" : 1125},
+					{"name" : "BANYAK LOMBA", "total" : 116},
+					{"name" : "TIDAK SERU", "total" : 4023},
+					{"name" : "BANYAK PEMINAT", "total" : 861}
+				]
+			}
+		},
+		{
+			"Seni" : {
+				"description" : "Seni adalah jurusan yang membentuk karya seni dengan media yang bisa ditangkap mata dan dirasakan dengan rabaan. Hal - hal yang dipelajari antara lain mengenai konsep titik, garis, bidang, bentuk, volume, warna, tekstur, dan pencahayaan.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 3094 },
+							{ "year" : 2012, "total" : 2391 },
+							{ "year" : 2013, "total" : 3028 },
+							{ "year" : 2014, "total" : 2982 },
+							{ "year" : 2015, "total" : 2872 },
+							{ "year" : 2016, "total" : 2983 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 821 },
+							{ "year" : 2012, "total" : 701 },
+							{ "year" : 2013, "total" : 673 },
+							{ "year" : 2014, "total" : 701 },
+							{ "year" : 2015, "total" : 889 },
+							{ "year" : 2016, "total" : 937 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 120, "graduate" : 106 },
+					{ "name" : "UMN", "location" : "Tangerang", "kuota" : 200, "graduate" : 187 },
+					{ "name" : "Binus", "location" : "Jakarta", "kuota" : 180, "graduate" : 170 },
+					{ "name" : "Untar", "location" : "Jakarta", "kuota" : 150, "graduate": 139 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 138 }
+				],
+				"jobs": [
+					{ "name" : "Fashion Desainer", "salary" : 5000000,  "employee" : 456, "workload" : 9 },
+					{ "name" : "Interior Desainer", "salary" : 7500000, "employee" : 431, "workload" : 10 },
+					{ "name" : "Animator", "salary" : 6000000, "employee" : 543, "workload": 10 },
+					{ "name" : "Graphic Desainer", "salary" : 4500000, "employee" : 435, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 4033},
+					{"name" : "MENARIK", "total" : 3229},
+					{"name" : "MEMBOSANKAN", "total" : 2572},
+					{"name" : "MENGASYIKAN", "total" : 460},
+					{"name" : "LELAH", "total" : 4605},
+					{"name" : "BANYAK TUGAS", "total" : 2224},
+					{"name" : "SULIT", "total" : 3196},
+					{"name" : "MUDAH", "total" : 1162},
+					{"name" : "BERMANFAAT", "total" : 136},
+					{"name" : "UJIAN SULIT", "total" : 743},
+					{"name" : "BEGADANG", "total" : 1714},
+					{"name" : "IRIT", "total" : 2206},
+					{"name" : "PROSPEK LUAS", "total" : 3060},
+					{"name" : "KEREN", "total" : 4334},
+					{"name" : "SALARY MENJANJIKAN", "total" : 992},
+					{"name" : "BUTUH KETELITIAN", "total" : 2359},
+					{"name" : "TUGAS BERAGAM", "total" : 3143},
+					{"name" : "BANYAK LOMBA", "total" : 4592},
+					{"name" : "TIDAK SERU", "total" : 3114},
+					{"name" : "BANYAK PEMINAT", "total" : 3189}
+				]
+			}
+		},
+		{
+			"Fisika" : {
+				"description" : "Fisika merupakan jurusan yang mempelajari materi beserta gerak dan perilakunya dalam lingkup ruang dan waktu, bersamaan dengan konsep yang berkaitan seperti energi dan gaya.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1342 },
+							{ "year" : 2012, "total" : 1534 },
+							{ "year" : 2013, "total" : 1119 },
+							{ "year" : 2014, "total" : 1257 },
+							{ "year" : 2015, "total" : 1586 },
+							{ "year" : 2016, "total" : 1068 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 223 },
+							{ "year" : 2012, "total" : 312 },
+							{ "year" : 2013, "total" : 215 },
+							{ "year" : 2014, "total" : 225 },
+							{ "year" : 2015, "total" : 223 },
+							{ "year" : 2016, "total" : 282 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 150, "graduate" : 138 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 300, "graduate" : 280 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 300, "graduate" : 286 },
+					{ "name" : "ITS", "location" : "Surabaya", "kuota" : 200, "graduate": 190 },
+					{ "name" : "UNDIP", "location" : "Semarang", "kuota" : 400, "graduate": 373 }
+				],
+				"jobs": [
+					{ "name" : "Dosen", "salary" : 5000000,  "employee" : 2023, "workload" : 8 },
+					{ "name" : "Ilmuwan", "salary" : 4000000, "employee" : 893, "workload" : 8 },
+					{ "name" : "Physics Engineer", "salary" : 9000000, "employee" : 732, "workload" : 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 3479},
+					{"name" : "MENARIK", "total" : 340},
+					{"name" : "MEMBOSANKAN", "total" : 4819},
+					{"name" : "MENGASYIKAN", "total" : 2243},
+					{"name" : "LELAH", "total" : 3750},
+					{"name" : "BANYAK TUGAS", "total" : 1903},
+					{"name" : "SULIT", "total" : 4781},
+					{"name" : "MUDAH", "total" : 3536},
+					{"name" : "BERMANFAAT", "total" : 3525},
+					{"name" : "UJIAN SULIT", "total" : 1951},
+					{"name" : "BEGADANG", "total" : 1137},
+					{"name" : "IRIT", "total" : 1551},
+					{"name" : "PROSPEK LUAS", "total" : 3547},
+					{"name" : "KEREN", "total" : 2105},
+					{"name" : "SALARY MENJANJIKAN", "total" : 3235},
+					{"name" : "BUTUH KETELITIAN", "total" : 3412},
+					{"name" : "TUGAS BERAGAM", "total" : 4625},
+					{"name" : "BANYAK LOMBA", "total" : 3801},
+					{"name" : "TIDAK SERU", "total" : 967},
+					{"name" : "BANYAK PEMINAT", "total" : 1730}
+				]
+			}
+		},
+		{
+			"Astronomi" : {
+				"description" : "Astronomi merupakan jurusan yang mempelajari mengenai benda-benda langit (seperti halnya bintang, planet, komet, nebula, gugus bintang, atau galaksi) serta fenomena-fenomena alam yang terjadi di luar atmosfer Bumi (misalnya radiasi latar belakang kosmik (radiasi CMB)).",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 133 },
+							{ "year" : 2012, "total" : 123 },
+							{ "year" : 2013, "total" : 123 },
+							{ "year" : 2014, "total" : 126 },
+							{ "year" : 2015, "total" : 112 },
+							{ "year" : 2016, "total" : 153 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 34 },
+							{ "year" : 2012, "total" : 35 },
+							{ "year" : 2013, "total" : 53 },
+							{ "year" : 2014, "total" : 22 },
+							{ "year" : 2015, "total" : 65 },
+							{ "year" : 2016, "total" : 75 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 120, "graduate" : 100 }
+				],
+				"jobs": [
+					{ "name" : "Astronom", "salary" : 8000000,  "employee" : 454, "workload" : 8 },
+					{ "name" : "Peneliti", "salary" : 6000000, "employee" : 343, "workload" : 8},
+					{ "name": "Dosen", "salary": 5000000, "employee" : 593, "workload" : 5}
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 4898},
+					{"name" : "MENARIK", "total" : 586},
+					{"name" : "MEMBOSANKAN", "total" : 1411},
+					{"name" : "MENGASYIKAN", "total" : 3729},
+					{"name" : "LELAH", "total" : 2578},
+					{"name" : "BANYAK TUGAS", "total" : 160},
+					{"name" : "SULIT", "total" : 4140},
+					{"name" : "MUDAH", "total" : 2413},
+					{"name" : "BERMANFAAT", "total" : 3026},
+					{"name" : "UJIAN SULIT", "total" : 957},
+					{"name" : "BEGADANG", "total" : 2546},
+					{"name" : "IRIT", "total" : 355},
+					{"name" : "PROSPEK LUAS", "total" : 1671},
+					{"name" : "KEREN", "total" : 1366},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2422},
+					{"name" : "BUTUH KETELITIAN", "total" : 4051},
+					{"name" : "TUGAS BERAGAM", "total" : 3253},
+					{"name" : "BANYAK LOMBA", "total" : 1572},
+					{"name" : "TIDAK SERU", "total" : 2442},
+					{"name" : "BANYAK PEMINAT", "total" : 4213}
+				]
+			}
+		},
+		{
+			"Elektrik" : {
+				"description" : "Teknik Elektronika adalah bidang teknik yang mempelajari tentang komponen listrik dan peralatan-peralatan semi konduktor. Hal - hal yang dipelajari antara lain rekayasa elektronik, mikroelektronik, mekatronik, dan komponen pemrosesan sinyal.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 3342 },
+							{ "year" : 2012, "total" : 3534 },
+							{ "year" : 2013, "total" : 4119 },
+							{ "year" : 2014, "total" : 4257 },
+							{ "year" : 2015, "total" : 4586 },
+							{ "year" : 2016, "total" : 4068 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 423 },
+							{ "year" : 2012, "total" : 412 },
+							{ "year" : 2013, "total" : 515 },
+							{ "year" : 2014, "total" : 525 },
+							{ "year" : 2015, "total" : 523 },
+							{ "year" : 2016, "total" : 582 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 200, "graduate" : 193 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 200, "graduate" : 182 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 180, "graduate" : 162 },
+					{ "name" : "ITS", "location" : "Surabaya", "kuota" : 200, "graduate": 184 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 180, "graduate" : 168 }
+				],
+				"jobs": [
+					{ "name" : "Engineer", "salary" : 10000000,  "employee" : 4023, "workload" : 8 },
+					{ "name" : "Peneliti", "salary" : 6000000, "employee" : 893, "workload" : 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2507},
+					{"name" : "MENARIK", "total" : 275},
+					{"name" : "MEMBOSANKAN", "total" : 3412},
+					{"name" : "MENGASYIKAN", "total" : 424},
+					{"name" : "LELAH", "total" : 1146},
+					{"name" : "BANYAK TUGAS", "total" : 3527},
+					{"name" : "SULIT", "total" : 950},
+					{"name" : "MUDAH", "total" : 3543},
+					{"name" : "BERMANFAAT", "total" : 850},
+					{"name" : "UJIAN SULIT", "total" : 2312},
+					{"name" : "BEGADANG", "total" : 2789},
+					{"name" : "IRIT", "total" : 2784},
+					{"name" : "PROSPEK LUAS", "total" : 2683},
+					{"name" : "KEREN", "total" : 309},
+					{"name" : "SALARY MENJANJIKAN", "total" : 1702},
+					{"name" : "BUTUH KETELITIAN", "total" : 150},
+					{"name" : "TUGAS BERAGAM", "total" : 4383},
+					{"name" : "BANYAK LOMBA", "total" : 1294},
+					{"name" : "TIDAK SERU", "total" : 4428},
+					{"name" : "BANYAK PEMINAT", "total" : 2287}
+				]
+			}
+		},
+		{
+			"Matematika" : {
+				"description" : "Jurusan yang mempelajari mengenai besaran, struktur, ruang, dan perubah. Hal - hal yang dipelajari antara lain aritmetika, aljabar, geometri, dan analisis.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1094 },
+							{ "year" : 2012, "total" : 1391 },
+							{ "year" : 2013, "total" : 928 },
+							{ "year" : 2014, "total" : 982 },
+							{ "year" : 2015, "total" : 872 },
+							{ "year" : 2016, "total" : 883 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 421 },
+							{ "year" : 2012, "total" : 501 },
+							{ "year" : 2013, "total" : 323 },
+							{ "year" : 2014, "total" : 301 },
+							{ "year" : 2015, "total" : 289 },
+							{ "year" : 2016, "total" : 337 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 120, "graduate" : 112 },
+					{ "name" : "UNPAD", "location" : "Bandung", "kuota" : 120, "graduate" : 110 },
+					{ "name" : "ITS", "location" : "Surabaya", "kuota" : 120, "graduate" : 113 },
+					{ "name" : "UI", "location" : "Depok", "kuota" : 120, "graduate": 115 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
+				],
+				"jobs": [
+					{ "name" : "Dosen", "salary" : 5000000,  "employee" : 682, "workload" : 5 },
+					{ "name" : "Matematikawan", "salary" : 4000000, "employee" : 342, "workload" : 10},
+					{ "name" : "Asuransi", "salary": 6000000, "employee": 503, "workload": 8}
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 3724},
+					{"name" : "MENARIK", "total" : 4439},
+					{"name" : "MEMBOSANKAN", "total" : 125},
+					{"name" : "MENGASYIKAN", "total" : 588},
+					{"name" : "LELAH", "total" : 652},
+					{"name" : "BANYAK TUGAS", "total" : 2605},
+					{"name" : "SULIT", "total" : 1109},
+					{"name" : "MUDAH", "total" : 802},
+					{"name" : "BERMANFAAT", "total" : 429},
+					{"name" : "UJIAN SULIT", "total" : 3008},
+					{"name" : "BEGADANG", "total" : 278},
+					{"name" : "IRIT", "total" : 199},
+					{"name" : "PROSPEK LUAS", "total" : 4560},
+					{"name" : "KEREN", "total" : 1963},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2665},
+					{"name" : "BUTUH KETELITIAN", "total" : 2394},
+					{"name" : "TUGAS BERAGAM", "total" : 3440},
+					{"name" : "BANYAK LOMBA", "total" : 4770},
+					{"name" : "TIDAK SERU", "total" : 2137},
+					{"name" : "BANYAK PEMINAT", "total" : 381}
+				]
+			}
+		},
+		{
+			"Pertanian" : {
+				"description" : "Jurusan yang mempelajari pemanfaatan sumber daya hayati yang dilakukan manusia untuk menghasilkan bahan pangan, bahan baku industri, atau sumber energi, serta untuk mengelola lingkungan hidupnya.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1142 },
+							{ "year" : 2012, "total" : 1334 },
+							{ "year" : 2013, "total" : 1229 },
+							{ "year" : 2014, "total" : 1217 },
+							{ "year" : 2015, "total" : 1136 },
+							{ "year" : 2016, "total" : 1062 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 313 },
+							{ "year" : 2012, "total" : 311 },
+							{ "year" : 2013, "total" : 285 },
+							{ "year" : 2014, "total" : 278 },
+							{ "year" : 2015, "total" : 323 },
+							{ "year" : 2016, "total" : 282 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "IPB", "location" : "Bogor", "kuota" : 200, "graduate" : 190 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 100, "graduate" : 92 },
+					{ "name" : "UNDIP", "location" : "Semarang", "kuota" : 100, "graduate" : 87 },
+					{ "name" : "Unbraw", "location" : "Semarang", "kuota" : 120, "graduate" : 111 },
+					{ "name" : "UNSRI", "location" : "Palembang", "kuota" : 150, "graduate" : 131 }
+				],
+				"jobs": [
+					{ "name" : "Peneliti", "salary" : 6000000,  "employee" : 502, "workload" : 8 },
+					{ "name" : "Dosen", "salary" : 5000000, "employee" : 393, "workload" : 5 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1097},
+					{"name" : "MENARIK", "total" : 3407},
+					{"name" : "MEMBOSANKAN", "total" : 4265},
+					{"name" : "MENGASYIKAN", "total" : 4199},
+					{"name" : "LELAH", "total" : 3940},
+					{"name" : "BANYAK TUGAS", "total" : 2416},
+					{"name" : "SULIT", "total" : 1079},
+					{"name" : "MUDAH", "total" : 234},
+					{"name" : "BERMANFAAT", "total" : 3469},
+					{"name" : "UJIAN SULIT", "total" : 792},
+					{"name" : "BEGADANG", "total" : 2499},
+					{"name" : "IRIT", "total" : 3531},
+					{"name" : "PROSPEK LUAS", "total" : 3352},
+					{"name" : "KEREN", "total" : 3284},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2953},
+					{"name" : "BUTUH KETELITIAN", "total" : 4910},
+					{"name" : "TUGAS BERAGAM", "total" : 1897},
+					{"name" : "BANYAK LOMBA", "total" : 487},
+					{"name" : "TIDAK SERU", "total" : 1283},
+					{"name" : "BANYAK PEMINAT", "total" : 4021}
+				]
+			}
+		},
+		{
+			"Geologi" : {
+				"description" : "Jurusan yang mempelajari bumi, komposisinya, struktur, sifat-sifat fisik, sejarah, dan proses pembentukannya. Bidang yang berhubungan antara lain geoarkeologi, geodesi, geofisika, geokimia, geokronologi, serta geologi lingkungan.",
+				"gender" : [
+					{
+						"male" : [
+							{ "year" : 2011, "total" : 1394 },
+							{ "year" : 2012, "total" : 1291 },
+							{ "year" : 2013, "total" : 1228 },
+							{ "year" : 2014, "total" : 1182 },
+							{ "year" : 2015, "total" : 1472 },
+							{ "year" : 2016, "total" : 1583 }
+						]
+					},
+					{
+						"female" : [
+							{ "year" : 2011, "total" : 321 },
+							{ "year" : 2012, "total" : 401 },
+							{ "year" : 2013, "total" : 323 },
+							{ "year" : 2014, "total" : 301 },
+							{ "year" : 2015, "total" : 389 },
+							{ "year" : 2016, "total" : 437 }
+						]
+					}
+				],
+				"university" : [
+					{ "name" : "ITB", "location" : "Bandung", "kuota" : 120, "graduate" : 112 },
+					{ "name" : "UNPAD", "location" : "Jatinangor", "kuota" : 150, "graduate" : 134 },
+					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 120, "graduate" : 108 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 140, "graduate" : 122 },
+					{ "name" : "Trisakti", "location" : "Jakarta", "kuota" : 160, "graduate" : 143 }
+				],
+				"jobs": [
+					{ "name" : "Engineer", "salary" : 10000000,  "employee" : 682, "workload" : 8 },
+					{ "name" : "Konstruktor", "salary" : 12000000, "employee" : 342, "workload" : 8}
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 3141},
+					{"name" : "MENARIK", "total" : 2765},
+					{"name" : "MEMBOSANKAN", "total" : 3118},
+					{"name" : "MENGASYIKAN", "total" : 2520},
+					{"name" : "LELAH", "total" : 4035},
+					{"name" : "BANYAK TUGAS", "total" : 2012},
+					{"name" : "SULIT", "total" : 4511},
+					{"name" : "MUDAH", "total" : 964},
+					{"name" : "BERMANFAAT", "total" : 3509},
+					{"name" : "UJIAN SULIT", "total" : 206},
+					{"name" : "BEGADANG", "total" : 371},
+					{"name" : "IRIT", "total" : 2803},
+					{"name" : "PROSPEK LUAS", "total" : 1665},
+					{"name" : "KEREN", "total" : 3504},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2450},
+					{"name" : "BUTUH KETELITIAN", "total" : 2736},
+					{"name" : "TUGAS BERAGAM", "total" : 1625},
+					{"name" : "BANYAK LOMBA", "total" : 4408},
+					{"name" : "TIDAK SERU", "total" : 2305},
+					{"name" : "BANYAK PEMINAT", "total" : 1866}
+				]
+			}
+		},
+		{
+			"Geografi": {
+				"description": "Geografi merupakan ilmu yang mempelajari tentang lokasi serta persamaan dan perbedaan (variasi) keruangan atas fenomena fisik, dan manusia di atas permukaan bumi. Hal-hal yang akan dipelajari di jurusan ini adalah Geografi Manusia, Geografi Fisika, dan Geografi Teknik.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":2321 }, 
+						{ "year":2012, "total":2134 },
+						{ "year":2013, "total":2837 },
+						{ "year":2014, "total":2747 },
+						{ "year":2015, "total":2819 },
+						{ "year":2016, "total":2919 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1392 }, 
+						{ "year":2012, "total":1932 },
+						{ "year":2013, "total":1283 },
+						{ "year":2014, "total":1103 },
+						{ "year":2015, "total":1842 },
+						{ "year":2016, "total":1293 } 
+					]}
+				],
+				"university": [
+					{ "name": "UI", "location": "Bandung", "kuota": 98, "graduate": 70 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 116, "graduate": 108 },
+					{ "name": "IKIP", "location": "Jakarta", "kuota": 88, "graduate": 72 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 },
+					{ "name" : "Trisakti", "location" : "Jakarta", "kuota" : 102, "graduate" : 89 }
+				],
+				"jobs": [
+					{ "name": "Departemen Transmigrasi", "salary":6825000, "employee":4839, "workload":7 },
+					{ "name": "Dinas Agraria", "salary":9621900, "employee":1284, "workload":9 },
+					{ "name": "Statistik", "salary":7852400, "employee":7938, "workload":8 },
+					{ "name": "Konsultan", "salary":12330000, "employee":7239, "workload":5 },
+					{ "name": "Pemda", "salary":14539483, "employee":2123, "workload":8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1415},
+					{"name" : "MENARIK", "total" : 3938},
+					{"name" : "MEMBOSANKAN", "total" : 2477},
+					{"name" : "MENGASYIKAN", "total" : 1942},
+					{"name" : "LELAH", "total" : 3377},
+					{"name" : "BANYAK TUGAS", "total" : 2088},
+					{"name" : "SULIT", "total" : 367},
+					{"name" : "MUDAH", "total" : 1731},
+					{"name" : "BERMANFAAT", "total" : 2165},
+					{"name" : "UJIAN SULIT", "total" : 4890},
+					{"name" : "BEGADANG", "total" : 662},
+					{"name" : "IRIT", "total" : 3450},
+					{"name" : "PROSPEK LUAS", "total" : 3593},
+					{"name" : "KEREN", "total" : 4699},
+					{"name" : "SALARY MENJANJIKAN", "total" : 134},
+					{"name" : "BUTUH KETELITIAN", "total" : 1871},
+					{"name" : "TUGAS BERAGAM", "total" : 778},
+					{"name" : "BANYAK LOMBA", "total" : 4059},
+					{"name" : "TIDAK SERU", "total" : 1918},
+					{"name" : "BANYAK PEMINAT", "total" : 3135}
+				]
+			}
+		},
+		{
+			"Farmasi": {
+				"description": "Farmasi merupakan salah satu bidang profesional kesehatan yang merupakan kombinasi dari ilmu kesehatan dan ilmu kimia, yang mempunyai tanggung-jawab memastikan efektivitas dan keamanan penggunaan obat. Hal-hal yang akan dipelajari di jurusan ini adalah Anatomi Fisiologi Tumbuhan, dan Ilmu Kimia.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":3281 }, 
+						{ "year":2012, "total":3910 },
+						{ "year":2013, "total":2941 },
+						{ "year":2014, "total":3948 },
+						{ "year":2015, "total":2136 },
+						{ "year":2016, "total":2403 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1393 }, 
+						{ "year":2012, "total":1934 },
+						{ "year":2013, "total":2023 },
+						{ "year":2014, "total":1749 },
+						{ "year":2015, "total":2402 },
+						{ "year":2016, "total":2213 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 73, "graduate": 68 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 80, "graduate": 70 },
+					{ "name": "UNPAD", "location": "Bandung", "kuota": 82, "graduate": 75 },
+					{ "name": "UNAIR", "location": "Surabaya", "kuota": 68, "graduate": 60 },
+					{ "name": "UI", "location": "Depok", "kuota": 62, "graduate": 54 }
+				],
+				"jobs": [
+					{ "name": "Apoteker", "salary":8220134, "employee":8029, "workload": 10 },
+					{ "name": "Departemen Kesehatan", "salary":6502051, "employee":4290, "workload": 8 },
+					{ "name": "Industri Bahan Makanan", "salary":3923948, "employee":3404, "workload": 8 },
+					{ "name": "Kosmetika", "salary":3193529, "employee":5392, "workload": 5 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1136},
+					{"name" : "MENARIK", "total" : 2087},
+					{"name" : "MEMBOSANKAN", "total" : 4608},
+					{"name" : "MENGASYIKAN", "total" : 493},
+					{"name" : "LELAH", "total" : 1317},
+					{"name" : "BANYAK TUGAS", "total" : 2844},
+					{"name" : "SULIT", "total" : 1662},
+					{"name" : "MUDAH", "total" : 1341},
+					{"name" : "BERMANFAAT", "total" : 4784},
+					{"name" : "UJIAN SULIT", "total" : 795},
+					{"name" : "BEGADANG", "total" : 363},
+					{"name" : "IRIT", "total" : 2487},
+					{"name" : "PROSPEK LUAS", "total" : 84},
+					{"name" : "KEREN", "total" : 1730},
+					{"name" : "SALARY MENJANJIKAN", "total" : 4872},
+					{"name" : "BUTUH KETELITIAN", "total" : 3432},
+					{"name" : "TUGAS BERAGAM", "total" : 2670},
+					{"name" : "BANYAK LOMBA", "total" : 4155},
+					{"name" : "TIDAK SERU", "total" : 1781},
+					{"name" : "BANYAK PEMINAT", "total" : 3804}
+				]
+			}
+		},
+		{
+			"Biologi": {
+				"description": "Biologi merupakan kajian tentang kehidupan, dan organisme hidup, termasuk struktur, fungsi, pertumbuhan, evolusi, persebaran, dan taksonominya. Hal-hal yang akan dipelajari di jurusan ini adalah Botani, Zoologi, Biologi Lingkungan, Mikrobiologi, Biokomia, Fisiologi, genetika, dan ekologi.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":4830 }, 
+						{ "year":2012, "total":3952 },
+						{ "year":2013, "total":2953 },
+						{ "year":2014, "total":5028 },
+						{ "year":2015, "total":3024 },
+						{ "year":2016, "total":3529 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":3294 }, 
+						{ "year":2012, "total":3835 },
+						{ "year":2013, "total":3952 },
+						{ "year":2014, "total":1935 },
+						{ "year":2015, "total":3325 },
+						{ "year":2016, "total":2928 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 103, "graduate": 92 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 93, "graduate": 86 },
+					{ "name": "UNPAD", "location": "Bandung", "kuota": 80, "graduate": 68 },
+					{ "name": "IPB", "location": "Bogor", "kuota": 76, "graduate": 62 },
+					{ "name": "UI", "location": "Depok", "kuota": 90, "graduate": 72 }
+				],
+				"jobs": [
+					{ "name": "Industri Pertanian", "salary":7804392, "employee":9293, "workload": 8 },
+					{ "name": "Industri Farmasi", "salary":5839284, "employee":5323, "workload": 8 },
+					{ "name": "Peneliti", "salary":8392842, "employee":7392, "workload": 10 },
+					{ "name": "Ahli Biologi", "salary":4392941, "employee":8473, "workload": 10 },
+					{ "name": "Guru", "salary":3739284, "employee":1029, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 847},
+					{"name" : "MENARIK", "total" : 386},
+					{"name" : "MEMBOSANKAN", "total" : 4131},
+					{"name" : "MENGASYIKAN", "total" : 2658},
+					{"name" : "LELAH", "total" : 1717},
+					{"name" : "BANYAK TUGAS", "total" : 273},
+					{"name" : "SULIT", "total" : 360},
+					{"name" : "MUDAH", "total" : 1773},
+					{"name" : "BERMANFAAT", "total" : 4078},
+					{"name" : "UJIAN SULIT", "total" : 823},
+					{"name" : "BEGADANG", "total" : 4083},
+					{"name" : "IRIT", "total" : 3496},
+					{"name" : "PROSPEK LUAS", "total" : 3988},
+					{"name" : "KEREN", "total" : 4368},
+					{"name" : "SALARY MENJANJIKAN", "total" : 3449},
+					{"name" : "BUTUH KETELITIAN", "total" : 805},
+					{"name" : "TUGAS BERAGAM", "total" : 1819},
+					{"name" : "BANYAK LOMBA", "total" : 2366},
+					{"name" : "TIDAK SERU", "total" : 3382},
+					{"name" : "BANYAK PEMINAT", "total" : 1169}
+				]
+			}
+		},
+		{
+			"Arsitek": {
+				"description": "Arsitek merupakan ilmu dan seni dalam mendesain dan merancang bangunan dan struktur. Pada intinya, Arsitektur bertujuan untuk menciptakan sebuah ruang untuk kebutuhan manusia. Hal-hal yang akan dipelajari di jurusan ini adalah Perencanaan, Pemukiman, Perencanaan, Teknologi, dan Bangunan.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":3821 }, 
+						{ "year":2012, "total":2942 },
+						{ "year":2013, "total":4012 },
+						{ "year":2014, "total":2493 },
+						{ "year":2015, "total":2042 },
+						{ "year":2016, "total":3029 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1924 }, 
+						{ "year":2012, "total":2021 },
+						{ "year":2013, "total":820 },
+						{ "year":2014, "total":1942 },
+						{ "year":2015, "total":1822 },
+						{ "year":2016, "total":927 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 103, "graduate": 88 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 84, "graduate": 75 },
+					{ "name": "UI", "location": "Depok", "kuota": 72, "graduate": 60 },
+					{ "name": "ITS", "location": "Surabaya", "kuota": 80, "graduate": 70 },
+					{ "name": "UNDIP", "location": "Semarang", "kuota": 90, "graduate": 87 }
+				],
+				"jobs": [
+					{ "name": "Arsitektur", "salary":4820103, "employee":4930, "workload": 10 },
+					{ "name": "Kontraktor", "salary":8029382, "employee":3024, "workload": 8 },
+					{ "name": "Tata Kota", "salary":5929483, "employee":5403, "workload": 9 },
+					{ "name": "Konsultan", "salary":1049325, "employee":4321, "workload": 6 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 4715},
+					{"name" : "MENARIK", "total" : 2521},
+					{"name" : "MEMBOSANKAN", "total" : 1057},
+					{"name" : "MENGASYIKAN", "total" : 378},
+					{"name" : "LELAH", "total" : 2010},
+					{"name" : "BANYAK TUGAS", "total" : 2067},
+					{"name" : "SULIT", "total" : 638},
+					{"name" : "MUDAH", "total" : 4281},
+					{"name" : "BERMANFAAT", "total" : 2710},
+					{"name" : "UJIAN SULIT", "total" : 3204},
+					{"name" : "BEGADANG", "total" : 2218},
+					{"name" : "IRIT", "total" : 4194},
+					{"name" : "PROSPEK LUAS", "total" : 3900},
+					{"name" : "KEREN", "total" : 4804},
+					{"name" : "SALARY MENJANJIKAN", "total" : 4070},
+					{"name" : "BUTUH KETELITIAN", "total" : 80},
+					{"name" : "TUGAS BERAGAM", "total" : 889},
+					{"name" : "BANYAK LOMBA", "total" : 3313},
+					{"name" : "TIDAK SERU", "total" : 4824},
+					{"name" : "BANYAK PEMINAT", "total" : 501}
+				]
+			}
+		},
+		{
+			"Sipil": {
+				"description": "Teknik sipil merupakan silmu terapan yang mencakup teknologi merancang, membangun, dan memelihara serta memperbaiki bangunan dan infrastruktur. Hal-hal yang akan dipelajari di jurusan ini adalah Teknik Sipil Kontruksi, Teknik Sipil Transportasi, Teknik Sipil Hidro, Teknik Sipil Pengairan, Teknik Penyekatan, dan Manajemen Kontruksi",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":4302 }, 
+						{ "year":2012, "total":3024 },
+						{ "year":2013, "total":3935 },
+						{ "year":2014, "total":2945 },
+						{ "year":2015, "total":3802 },
+						{ "year":2016, "total":2742 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1934 }, 
+						{ "year":2012, "total":2832 },
+						{ "year":2013, "total":1934 },
+						{ "year":2014, "total":2928 },
+						{ "year":2015, "total":1935 },
+						{ "year":2016, "total":3029 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 152, "graduate": 132 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 100, "graduate": 85 },
+					{ "name": "UI", "location": "Depok", "kuota": 80, "graduate": 73 },
+					{ "name": "ITS", "location": "Surabaya", "kuota": 90, "graduate": 88 },
+					{ "name": "UNTAR", "location": "Jakarta", "kuota": 101, "graduate": 89 }
+				],
+				"jobs": [
+					{ "name": "Kontraktor", "salary":8932843, "employee":5493, "workload": 8 },
+					{ "name": "Insinyur Struktur", "salary":9238421, "employee":3402, "workload": 8 },
+					{ "name": "Surveyor", "salary":6748329, "employee":4830, "workload": 8 },
+					{ "name": "Konsultan", "salary":7849302, "employee":2934, "workload": 6 },
+					{ "name": "Insinyur Konstruksi", "salary":8374732, "employee":5943, "workload": 9 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 1985},
+					{"name" : "MENARIK", "total" : 4681},
+					{"name" : "MEMBOSANKAN", "total" : 3583},
+					{"name" : "MENGASYIKAN", "total" : 3933},
+					{"name" : "LELAH", "total" : 1315},
+					{"name" : "BANYAK TUGAS", "total" : 4450},
+					{"name" : "SULIT", "total" : 1778},
+					{"name" : "MUDAH", "total" : 3793},
+					{"name" : "BERMANFAAT", "total" : 284},
+					{"name" : "UJIAN SULIT", "total" : 3700},
+					{"name" : "BEGADANG", "total" : 2631},
+					{"name" : "IRIT", "total" : 557},
+					{"name" : "PROSPEK LUAS", "total" : 91},
+					{"name" : "KEREN", "total" : 1307},
+					{"name" : "SALARY MENJANJIKAN", "total" : 1908},
+					{"name" : "BUTUH KETELITIAN", "total" : 2912},
+					{"name" : "TUGAS BERAGAM", "total" : 659},
+					{"name" : "BANYAK LOMBA", "total" : 496},
+					{"name" : "TIDAK SERU", "total" : 4459},
+					{"name" : "BANYAK PEMINAT", "total" : 69}
+				]
+			}
+		},
+		{
+			"Mesin": {
+				"description": "Teknik mesin merupakan  ilmu teknik mengenai aplikasi dari prinsip fisika untuk analisis, desain, manufaktur dan pemeliharaan sebuah sistem mekanik. Hal-hal yang akan dipelajari di jurusan ini adalah Teknik mesin analitik, logam dan pengerjaannya, pesawat tenaga, serta pesawat kerja.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":3928 }, 
+						{ "year":2012, "total":3294 },
+						{ "year":2013, "total":2843 },
+						{ "year":2014, "total":2493 },
+						{ "year":2015, "total":4032 },
+						{ "year":2016, "total":3039 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":2494 }, 
+						{ "year":2012, "total":2301 },
+						{ "year":2013, "total":2001 },
+						{ "year":2014, "total":1958 },
+						{ "year":2015, "total":830 },
+						{ "year":2016, "total":1022 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 130, "graduate": 120 },
+					{ "name": "UGM", "location": "Yogyakarta", "kuota": 100, "graduate": 85 },
+					{ "name": "UI", "location": "Depok", "kuota": 120, "graduate": 112 },
+					{ "name": "ITS", "location": "Surabaya", "kuota": 103, "graduate": 90 },
+					{ "name": "UNDIP", "location": "Semarang", "kuota": 89, "graduate": 80 }
+				],
+				"jobs": [
+					{ "name": "Mekanik", "salary":9230231, "employee":5403, "workload": 8 },
+					{ "name": "Reservoir Engineer", "salary":8302183, "employee":3252, "workload": 8 },
+					{ "name": "Maintenance Engineer", "salary":6950432, "employee":1235, "workload": 9 },
+					{ "name": "Mechanical Packing Engineer", "salary":10234256, "employee":4024, "workload": 10 },
+					{ "name": "Konsultan", "salary":7394932, "employee":3352, "workload": 6 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2253},
+					{"name" : "MENARIK", "total" : 3673},
+					{"name" : "MEMBOSANKAN", "total" : 3999},
+					{"name" : "MENGASYIKAN", "total" : 2831},
+					{"name" : "LELAH", "total" : 76},
+					{"name" : "BANYAK TUGAS", "total" : 4576},
+					{"name" : "SULIT", "total" : 3153},
+					{"name" : "MUDAH", "total" : 4583},
+					{"name" : "BERMANFAAT", "total" : 2298},
+					{"name" : "UJIAN SULIT", "total" : 3162},
+					{"name" : "BEGADANG", "total" : 1923},
+					{"name" : "IRIT", "total" : 958},
+					{"name" : "PROSPEK LUAS", "total" : 3563},
+					{"name" : "KEREN", "total" : 279},
+					{"name" : "SALARY MENJANJIKAN", "total" : 1503},
+					{"name" : "BUTUH KETELITIAN", "total" : 956},
+					{"name" : "TUGAS BERAGAM", "total" : 663},
+					{"name" : "BANYAK LOMBA", "total" : 4446},
+					{"name" : "TIDAK SERU", "total" : 119},
+					{"name" : "BANYAK PEMINAT", "total" : 269}
+				]
+			}
+		},
+		{
+			"Pertambangan": {
+				"description": "Teknik pertambangan merupakan salah satu disiplin ilmu keteknikan yang mencakup praktik, teori, sains, teknologi dan aplikasi dalam pencarian, penambangan, pengolahan, dan pemanfaatan bahan galian. Hal-hal yang akan dipelajari di jurusan ini adalah pencarian dan pengolahan bahan-bahan tambang.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":2043 }, 
+						{ "year":2012, "total":1943 },
+						{ "year":2013, "total":2504 },
+						{ "year":2014, "total":3042 },
+						{ "year":2015, "total":2902 },
+						{ "year":2016, "total":1835 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1038 }, 
+						{ "year":2012, "total":1203 },
+						{ "year":2013, "total":1321 },
+						{ "year":2014, "total":1984 },
+						{ "year":2015, "total":1403 },
+						{ "year":2016, "total":789 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 160, "graduate": 148 },
+					{ "name": "UNSRI", "location": "Palembang", "kuota": 102, "graduate": 95 },
+					{ "name": "Trisakti", "location": "Jakarta", "kuota": 122, "graduate": 105 },
+					{ "name": "Universitas Jambi", "location": "Jambi", "kuota": 101, "graduate": 92 },
+					{ "name" : "Unbraw", "location" : "Semarang", "kuota" : 130, "graduate" : 121 }
+				],
+				"jobs": [
+					{ "name": "Insinyur", "salary":12384932, "employee":5493, "workload": 8 },
+					{ "name": "Operator", "salary":7382913, "employee":3024, "workload": 10 },
+					{ "name": "Spesialis Lingkungan", "salary":8829318, "employee":6043, "workload": 11 },
+					{ "name": "Peneliti", "salary":9029483, "employee":6382, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 3088},
+					{"name" : "MENARIK", "total" : 382},
+					{"name" : "MEMBOSANKAN", "total" : 2186},
+					{"name" : "MENGASYIKAN", "total" : 1941},
+					{"name" : "LELAH", "total" : 950},
+					{"name" : "BANYAK TUGAS", "total" : 2033},
+					{"name" : "SULIT", "total" : 1838},
+					{"name" : "MUDAH", "total" : 2138},
+					{"name" : "BERMANFAAT", "total" : 3504},
+					{"name" : "UJIAN SULIT", "total" : 2620},
+					{"name" : "BEGADANG", "total" : 4695},
+					{"name" : "IRIT", "total" : 1197},
+					{"name" : "PROSPEK LUAS", "total" : 4451},
+					{"name" : "KEREN", "total" : 12},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2364},
+					{"name" : "BUTUH KETELITIAN", "total" : 1157},
+					{"name" : "TUGAS BERAGAM", "total" : 3945},
+					{"name" : "BANYAK LOMBA", "total" : 2733},
+					{"name" : "TIDAK SERU", "total" : 2387},
+					{"name" : "BANYAK PEMINAT", "total" : 811}
+				]
+			}
+		},
+		{
+			"Metalurgi": {
+				"description": "Teknik metalurgi merupakan ilmu, seni, dan teknologi yang mengkaji proses pengolahan dan perekayasaan mineral dan logam. Ruang lingkup metalurgi meliputi pengolahan mineral, ekstrasi logam, dan produksi logam. Hal-hal yang akan dipelajari di jurusan ini adalah pencarian dan pengelolaan bahan yang dapat menajdi logam.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":3923 }, 
+						{ "year":2012, "total":2342 },
+						{ "year":2013, "total":2154 },
+						{ "year":2014, "total":3577 },
+						{ "year":2015, "total":4673 },
+						{ "year":2016, "total":2654 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1355 }, 
+						{ "year":2012, "total":1575 },
+						{ "year":2013, "total":1843 },
+						{ "year":2014, "total":890 },
+						{ "year":2015, "total":576 },
+						{ "year":2016, "total":1567 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 101, "graduate": 98 },
+					{ "name": "UNJANI", "location": "Bandung", "kuota": 80, "graduate": 69 },
+					{ "name": "UI", "location": "Depok", "kuota": 110, "graduate": 98 },
+					{ "name": "ITS", "location": "Surabaya", "kuota": 103, "graduate": 95 },
+					{ "name": "UNITRA", "location": "Banten", "kuota": 98, "graduate": 78 }
+				],
+				"jobs": [
+					{ "name": "Industri Pertambangan", "salary":20039482, "employee":6049, "workload": 15 },
+					{ "name": "Industri Ekstrasi", "salary":15948543, "employee":7304, "workload": 12 },
+					{ "name": "Industri Baja", "salary":13948593, "employee":3054, "workload": 13 },
+					{ "name": "Peneliti", "salary":9849382, "employee":2404, "workload": 8 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 2408},
+					{"name" : "MENARIK", "total" : 2043},
+					{"name" : "MEMBOSANKAN", "total" : 1514},
+					{"name" : "MENGASYIKAN", "total" : 3810},
+					{"name" : "LELAH", "total" : 2046},
+					{"name" : "BANYAK TUGAS", "total" : 3851},
+					{"name" : "SULIT", "total" : 2891},
+					{"name" : "MUDAH", "total" : 23},
+					{"name" : "BERMANFAAT", "total" : 1827},
+					{"name" : "UJIAN SULIT", "total" : 1281},
+					{"name" : "BEGADANG", "total" : 2150},
+					{"name" : "IRIT", "total" : 2709},
+					{"name" : "PROSPEK LUAS", "total" : 2397},
+					{"name" : "KEREN", "total" : 1395},
+					{"name" : "SALARY MENJANJIKAN", "total" : 2785},
+					{"name" : "BUTUH KETELITIAN", "total" : 3987},
+					{"name" : "TUGAS BERAGAM", "total" : 556},
+					{"name" : "BANYAK LOMBA", "total" : 815},
+					{"name" : "TIDAK SERU", "total" : 3815},
+					{"name" : "BANYAK PEMINAT", "total" : 168}
+				]
+			}
+		},
+		{
+			"Penerbangan": {
+				"description": "Teknik penerbangan merupakan bidang disiplin teknik yang mempelajari segala sesuatu yang terkait dengan upaya penjelajahan manusia di dalam atmosfer atau di luar angkasa. Hal-hal yang akan dipelajari di jurusan ini adalah cara membuat/merawat mesin pesawat, serta cara membuat konstruksi pesawat.",
+				"gender": [
+					{ "male": [
+						{ "year":2011, "total":2135 }, 
+						{ "year":2012, "total":3453 },
+						{ "year":2013, "total":2975 },
+						{ "year":2014, "total":2764 },
+						{ "year":2015, "total":3023 },
+						{ "year":2016, "total":2876 }
+					]}, 
+					{ "female": [
+						{ "year":2011, "total":1245 }, 
+						{ "year":2012, "total":1053 },
+						{ "year":2013, "total":1022 },
+						{ "year":2014, "total":1931 },
+						{ "year":2015, "total":995 },
+						{ "year":2016, "total":1234 } 
+					]}
+				],
+				"university": [
+					{ "name": "ITB", "location": "Bandung", "kuota": 102, "graduate": 90 },
+					{ "name": "Universitas Suryadarma", "location": "Jakarta", "kuota": 150, "graduate": 142 },
+					{ "name": "Politeknik Negeri Bandung", "location": "Bandung", "kuota": 110, "graduate": 100 },
+					{ "name": "Universitas Nurtanio", "location": "Bandung", "kuota": 98, "graduate": 85 },
+					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
+				],
+				"jobs": [
+					{ "name": "Teknisi", "salary":18392834, "employee":4329, "workload": 11 },
+					{ "name": "Ahli Aerospace", "salary":12940394, "employee":5423, "workload": 10 },
+					{ "name": "Peneliti", "salary":10304593, "employee":1305, "workload": 11 }
+				],
+				"opinion":[
+					{"name" : "SERU", "total" : 4827},
+					{"name" : "MENARIK", "total" : 4941},
+					{"name" : "MEMBOSANKAN", "total" : 3264},
+					{"name" : "MENGASYIKAN", "total" : 4043},
+					{"name" : "LELAH", "total" : 3401},
+					{"name" : "BANYAK TUGAS", "total" : 4894},
+					{"name" : "SULIT", "total" : 3931},
+					{"name" : "MUDAH", "total" : 1964},
+					{"name" : "BERMANFAAT", "total" : 4256},
+					{"name" : "UJIAN SULIT", "total" : 2989},
+					{"name" : "BEGADANG", "total" : 3747},
+					{"name" : "IRIT", "total" : 4185},
+					{"name" : "PROSPEK LUAS", "total" : 2646},
+					{"name" : "KEREN", "total" : 4913},
+					{"name" : "SALARY MENJANJIKAN", "total" : 715},
+					{"name" : "BUTUH KETELITIAN", "total" : 2411},
+					{"name" : "TUGAS BERAGAM", "total" : 4274},
+					{"name" : "BANYAK LOMBA", "total" : 2408},
+					{"name" : "TIDAK SERU", "total" : 408},
+					{"name" : "BANYAK PEMINAT", "total" : 2082}
+				]
+			}
+		}
+	]
+}
