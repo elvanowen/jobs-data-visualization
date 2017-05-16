@@ -151,8 +151,8 @@ var drawSalaryChart = function () {
           return z(j[i].parentNode.__data__.id);
         })
         .append("svg:title")
-        .text(function (d, i, j) {
-          return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + formatMoney(d.value);
+          .text(function (d, i, j) {
+            return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + formatMoney(d.value);
         });
 
     major.append("path")
