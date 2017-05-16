@@ -33,10 +33,114 @@
 					{ "name" : "Telkom", "location" : "Bandung", "kuota" : 400, "graduate": 373 }
 				],
 				"jobs": [
-					{ "name" : "Software Engineer", "salary" : 12000000,  "employee" : 2023, "workload" : 8 },
-					{ "name" : "Data Engineer", "salary" : 13000000, "employee" : 893, "workload" : 8 },
-					{ "name" : "Data Analyst", "salary" : 18000000, "employee" : 732, "workload" : 8 },
-					{ "name" : "IT Consultant", "salary" : 20000000, "employee" : 732, "workload" : 5 }
+					{	
+						"name" : "Software Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 11560000},
+							{"year" : 2012, "total" : 11750000},
+							{"year" : 2013, "total" : 12000000},
+							{"year" : 2014, "total" : 12340000},
+							{"year" : 2015, "total" : 12500000},
+							{"year" : 2016, "total" : 13000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1823},
+							{"year" : 2012, "total" : 1913},
+							{"year" : 2013, "total" : 1899},
+							{"year" : 2014, "total" : 2021},
+							{"year" : 2015, "total" : 2034},
+							{"year" : 2016, "total" : 2041}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{
+						"name" : "Data Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 13634000},
+							{"year" : 2012, "total" : 13543000},
+							{"year" : 2013, "total" : 13453000},
+							{"year" : 2014, "total" : 14252000},
+							{"year" : 2015, "total" : 14235000},
+							{"year" : 2016, "total" : 14500000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 693},
+							{"year" : 2012, "total" : 763},
+							{"year" : 2013, "total" : 823},
+							{"year" : 2014, "total" : 893},
+							{"year" : 2015, "total" : 913},
+							{"year" : 2016, "total" : 993}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Data Analyst",
+						"salary" : [
+							{"year" : 2011, "total" : 17342000},
+							{"year" : 2012, "total" : 17892000},
+							{"year" : 2013, "total" : 18130000},
+							{"year" : 2014, "total" : 18340000},
+							{"year" : 2015, "total" : 18950000},
+							{"year" : 2016, "total" : 19000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 632},
+							{"year" : 2012, "total" : 681},
+							{"year" : 2013, "total" : 732},
+							{"year" : 2014, "total" : 744},
+							{"year" : 2015, "total" : 785},
+							{"year" : 2016, "total" : 801}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{
+						"name" : "IT Consultant",
+						"salary" : [
+							{"year" : 2011, "total" : 19812000},
+							{"year" : 2012, "total" : 19812000},
+							{"year" : 2013, "total" : 20540000},
+							{"year" : 2014, "total" : 20890000},
+							{"year" : 2015, "total" : 21100000},
+							{"year" : 2016, "total" : 21500000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 602},
+							{"year" : 2012, "total" : 652},
+							{"year" : 2013, "total" : 643},
+							{"year" : 2014, "total" : 704},
+							{"year" : 2015, "total" : 720},
+							{"year" : 2016, "total" : 754}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1953},
@@ -95,10 +199,114 @@
 					{ "name" : "UNAIR", "location" : "Surabaya", "kuota" : 150, "graduate": 137 }
 				],
 				"jobs": [
-					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
-					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
-					{ "name" : "Business Analyst", "salary": 13000000, "employee" : 1510, "workload": 8 },
-					{ "name" : "Project Manager", "salary": 10000000, "employee": 1842, "workload": 8 }
+					{
+						"name" : "Consultant", 
+						"salary" : [
+							{"year" : 2011, "total" : 15237000},
+							{"year" : 2012, "total" : 15419000},
+							{"year" : 2013, "total" : 15923000},
+							{"year" : 2014, "total" : 16123000},
+							{"year" : 2015, "total" : 16238000},
+							{"year" : 2016, "total" : 17231000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1205},
+							{"year" : 2012, "total" : 1305},
+							{"year" : 2013, "total" : 1375},
+							{"year" : 2014, "total" : 1383},
+							{"year" : 2015, "total" : 1405},
+							{"year" : 2016, "total" : 1455}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					},
+					{ 
+						"name" : "Accountant",
+						"salary" : [
+							{"year" : 2011, "total" : 8131000},
+							{"year" : 2012, "total" : 8321000},
+							{"year" : 2013, "total" : 8744000},
+							{"year" : 2014, "total" : 9000000},
+							{"year" : 2015, "total" : 9120000},
+							{"year" : 2016, "total" : 9345000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1791},
+							{"year" : 2012, "total" : 1768},
+							{"year" : 2013, "total" : 1756},
+							{"year" : 2014, "total" : 1829},
+							{"year" : 2015, "total" : 1891},
+							{"year" : 2016, "total" : 1882}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Business Analyst", 
+						"salary" : [
+							{"year" : 2011, "total" : 12450000},
+							{"year" : 2012, "total" : 12830000},
+							{"year" : 2013, "total" : 12970000},
+							{"year" : 2014, "total" : 13230000},
+							{"year" : 2015, "total" : 13340000},
+							{"year" : 2016, "total" : 14780000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1510},
+							{"year" : 2012, "total" : 1510},
+							{"year" : 2013, "total" : 1510},
+							{"year" : 2014, "total" : 1510},
+							{"year" : 2015, "total" : 1510},
+							{"year" : 2016, "total" : 1510}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{
+						"name" : "Project Manager",
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1842},
+							{"year" : 2012, "total" : 1842},
+							{"year" : 2013, "total" : 1842},
+							{"year" : 2014, "total" : 1842},
+							{"year" : 2015, "total" : 1842},
+							{"year" : 2016, "total" : 1842}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2730},
@@ -157,10 +365,114 @@
 					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 134 }
 				],
 				"jobs": [
-					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
-					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
-					{ "name" : "Business Analyst", "salary": 13000000, "employee" : 1510, "workload": 8 },
-					{ "name" : "Project Manager", "salary": 10000000, "employee": 1842, "workload": 8 }
+					{ 
+						"name" : "Consultant", 
+						"salary" : [
+							{"year" : 2011, "total" : 15000000},
+							{"year" : 2012, "total" : 15000000},
+							{"year" : 2013, "total" : 15000000},
+							{"year" : 2014, "total" : 15000000},
+							{"year" : 2015, "total" : 15000000},
+							{"year" : 2016, "total" : 15000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1405},
+							{"year" : 2012, "total" : 1405},
+							{"year" : 2013, "total" : 1405},
+							{"year" : 2014, "total" : 1405},
+							{"year" : 2015, "total" : 1405},
+							{"year" : 2016, "total" : 1405}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					},
+					{ 
+						"name" : "Accountant", 
+						"salary" : [
+							{"year" : 2011, "total" : 8000000},
+							{"year" : 2012, "total" : 8000000},
+							{"year" : 2013, "total" : 8000000},
+							{"year" : 2014, "total" : 8000000},
+							{"year" : 2015, "total" : 8000000},
+							{"year" : 2016, "total" : 8000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1791},
+							{"year" : 2012, "total" : 1791},
+							{"year" : 2013, "total" : 1791},
+							{"year" : 2014, "total" : 1791},
+							{"year" : 2015, "total" : 1791},
+							{"year" : 2016, "total" : 1791}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Business Analyst", 
+						"salary" : [
+							{"year" : 2011, "total" : 13000000},
+							{"year" : 2012, "total" : 13000000},
+							{"year" : 2013, "total" : 13000000},
+							{"year" : 2014, "total" : 13000000},
+							{"year" : 2015, "total" : 13000000},
+							{"year" : 2016, "total" : 13000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1510},
+							{"year" : 2012, "total" : 1510},
+							{"year" : 2013, "total" : 1510},
+							{"year" : 2014, "total" : 1510},
+							{"year" : 2015, "total" : 1510},
+							{"year" : 2016, "total" : 1510}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Project Manager", 
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1842},
+							{"year" : 2012, "total" : 1842},
+							{"year" : 2013, "total" : 1842},
+							{"year" : 2014, "total" : 1842},
+							{"year" : 2015, "total" : 1842},
+							{"year" : 2016, "total" : 1842}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2271},
@@ -219,9 +531,87 @@
 					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
 				],
 				"jobs": [
-					{ "name" : "Psikolog", "salary" : 10000000,  "employee" : 413, "workload" : 6 },
-					{ "name" : "HRD", "salary" : 6000000, "employee" : 1022, "workload" : 8},
-					{ "name": "Consultant", "salary": 15000000, "employee": 573, "workload": 6}
+					{ 
+						"name" : "Psikolog",
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 413},
+							{"year" : 2012, "total" : 413},
+							{"year" : 2013, "total" : 413},
+							{"year" : 2014, "total" : 413},
+							{"year" : 2015, "total" : 413},
+							{"year" : 2016, "total" : 413}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 6},
+							{"year" : 2012, "total" : 6},
+							{"year" : 2013, "total" : 6},
+							{"year" : 2014, "total" : 6},
+							{"year" : 2015, "total" : 6},
+							{"year" : 2016, "total" : 6}
+						]
+					},
+					{ 
+						"name" : "HRD",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1022},
+							{"year" : 2012, "total" : 1022},
+							{"year" : 2013, "total" : 1022},
+							{"year" : 2014, "total" : 1022},
+							{"year" : 2015, "total" : 1022},
+							{"year" : 2016, "total" : 1022}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Consultant",
+						"salary" : [
+							{"year" : 2011, "total" : 15000000},
+							{"year" : 2012, "total" : 15000000},
+							{"year" : 2013, "total" : 15000000},
+							{"year" : 2014, "total" : 15000000},
+							{"year" : 2015, "total" : 15000000},
+							{"year" : 2016, "total" : 15000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 573},
+							{"year" : 2012, "total" : 573},
+							{"year" : 2013, "total" : 573},
+							{"year" : 2014, "total" : 573},
+							{"year" : 2015, "total" : 573},
+							{"year" : 2016, "total" : 573}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 6},
+							{"year" : 2012, "total" : 6},
+							{"year" : 2013, "total" : 6},
+							{"year" : 2014, "total" : 6},
+							{"year" : 2015, "total" : 6},
+							{"year" : 2016, "total" : 6}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1224},
@@ -280,10 +670,114 @@
 					{ "name" : "UNAIR", "location" : "Surabaya", "kuota" : 150, "graduate": 133 }
 				],
 				"jobs": [
-					{ "name" : "Consultant", "salary" : 15000000,  "employee" : 1405, "workload" : 5 },
-					{ "name" : "Accountant", "salary" : 8000000, "employee" : 1791, "workload" : 8 },
-					{ "name" : "Business Analyst", "salary" : 13000000, "employee" : 1510, "workload" : 8 },
-					{ "name" : "Project Manager", "salary" : 10000000, "employee" : 1842, "workload" : 8 }
+					{ 
+						"name" : "Consultant",
+						"salary" : [
+							{"year" : 2011, "total" : 15000000},
+							{"year" : 2012, "total" : 15000000},
+							{"year" : 2013, "total" : 15000000},
+							{"year" : 2014, "total" : 15000000},
+							{"year" : 2015, "total" : 15000000},
+							{"year" : 2016, "total" : 15000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1405},
+							{"year" : 2012, "total" : 1405},
+							{"year" : 2013, "total" : 1405},
+							{"year" : 2014, "total" : 1405},
+							{"year" : 2015, "total" : 1405},
+							{"year" : 2016, "total" : 1405}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					},
+					{ 
+						"name" : "Accountant",
+						"salary" : [
+							{"year" : 2011, "total" : 8000000},
+							{"year" : 2012, "total" : 8000000},
+							{"year" : 2013, "total" : 8000000},
+							{"year" : 2014, "total" : 8000000},
+							{"year" : 2015, "total" : 8000000},
+							{"year" : 2016, "total" : 8000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1791},
+							{"year" : 2012, "total" : 1791},
+							{"year" : 2013, "total" : 1791},
+							{"year" : 2014, "total" : 1791},
+							{"year" : 2015, "total" : 1791},
+							{"year" : 2016, "total" : 1791}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Business Analyst",
+						"salary" : [
+							{"year" : 2011, "total" : 13000000},
+							{"year" : 2012, "total" : 13000000},
+							{"year" : 2013, "total" : 13000000},
+							{"year" : 2014, "total" : 13000000},
+							{"year" : 2015, "total" : 13000000},
+							{"year" : 2016, "total" : 13000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1510},
+							{"year" : 2012, "total" : 1510},
+							{"year" : 2013, "total" : 1510},
+							{"year" : 2014, "total" : 1510},
+							{"year" : 2015, "total" : 1510},
+							{"year" : 2016, "total" : 1510}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Project Manager",
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1842},
+							{"year" : 2012, "total" : 1842},
+							{"year" : 2013, "total" : 1842},
+							{"year" : 2014, "total" : 1842},
+							{"year" : 2015, "total" : 1842},
+							{"year" : 2016, "total" : 1842}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2670},
@@ -342,10 +836,114 @@
 					{ "name" : "UGM", "location" : "Yogyakarta", "kuota" : 150, "graduate": 138 }
 				],
 				"jobs": [
-					{ "name" : "Fashion Desainer", "salary" : 5000000,  "employee" : 456, "workload" : 9 },
-					{ "name" : "Interior Desainer", "salary" : 7500000, "employee" : 431, "workload" : 10 },
-					{ "name" : "Animator", "salary" : 6000000, "employee" : 543, "workload": 10 },
-					{ "name" : "Graphic Desainer", "salary" : 4500000, "employee" : 435, "workload": 8 }
+					{ 
+						"name" : "Fashion Desainer",
+						"salary" : [
+							{"year" : 2011, "total" : 5000000},
+							{"year" : 2012, "total" : 5000000},
+							{"year" : 2013, "total" : 5000000},
+							{"year" : 2014, "total" : 5000000},
+							{"year" : 2015, "total" : 5000000},
+							{"year" : 2016, "total" : 5000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 456},
+							{"year" : 2012, "total" : 456},
+							{"year" : 2013, "total" : 456},
+							{"year" : 2014, "total" : 456},
+							{"year" : 2015, "total" : 456},
+							{"year" : 2016, "total" : 456}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 9},
+							{"year" : 2012, "total" : 9},
+							{"year" : 2013, "total" : 9},
+							{"year" : 2014, "total" : 9},
+							{"year" : 2015, "total" : 9},
+							{"year" : 2016, "total" : 9}
+						]
+					},
+					{ 
+						"name" : "Interior Desainer",
+						"salary" : [
+							{"year" : 2011, "total" : 7500000},
+							{"year" : 2012, "total" : 7500000},
+							{"year" : 2013, "total" : 7500000},
+							{"year" : 2014, "total" : 7500000},
+							{"year" : 2015, "total" : 7500000},
+							{"year" : 2016, "total" : 7500000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 431},
+							{"year" : 2012, "total" : 431},
+							{"year" : 2013, "total" : 431},
+							{"year" : 2014, "total" : 431},
+							{"year" : 2015, "total" : 431},
+							{"year" : 2016, "total" : 431}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name" : "Animator",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 543},
+							{"year" : 2012, "total" : 543},
+							{"year" : 2013, "total" : 543},
+							{"year" : 2014, "total" : 543},
+							{"year" : 2015, "total" : 543},
+							{"year" : 2016, "total" : 543}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name" : "Graphic Desainer",
+						"salary" : [
+							{"year" : 2011, "total" : 4500000},
+							{"year" : 2012, "total" : 4500000},
+							{"year" : 2013, "total" : 4500000},
+							{"year" : 2014, "total" : 4500000},
+							{"year" : 2015, "total" : 4500000},
+							{"year" : 2016, "total" : 4500000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 435},
+							{"year" : 2012, "total" : 435},
+							{"year" : 2013, "total" : 435},
+							{"year" : 2014, "total" : 435},
+							{"year" : 2015, "total" : 435},
+							{"year" : 2016, "total" : 435}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 4033},
@@ -404,9 +1002,87 @@
 					{ "name" : "UNDIP", "location" : "Semarang", "kuota" : 400, "graduate": 373 }
 				],
 				"jobs": [
-					{ "name" : "Dosen", "salary" : 5000000,  "employee" : 2023, "workload" : 8 },
-					{ "name" : "Ilmuwan", "salary" : 4000000, "employee" : 893, "workload" : 8 },
-					{ "name" : "Physics Engineer", "salary" : 9000000, "employee" : 732, "workload" : 8 }
+					{ 
+						"name" : "Dosen",
+						"salary" : [
+							{"year" : 2011, "total" : 5000000},
+							{"year" : 2012, "total" : 5000000},
+							{"year" : 2013, "total" : 5000000},
+							{"year" : 2014, "total" : 5000000},
+							{"year" : 2015, "total" : 5000000},
+							{"year" : 2016, "total" : 5000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 2023},
+							{"year" : 2012, "total" : 2023},
+							{"year" : 2013, "total" : 2023},
+							{"year" : 2014, "total" : 2023},
+							{"year" : 2015, "total" : 2023},
+							{"year" : 2016, "total" : 2023}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Ilmuwan",
+						"salary" : [
+							{"year" : 2011, "total" : 4000000},
+							{"year" : 2012, "total" : 4000000},
+							{"year" : 2013, "total" : 4000000},
+							{"year" : 2014, "total" : 4000000},
+							{"year" : 2015, "total" : 4000000},
+							{"year" : 2016, "total" : 4000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 893},
+							{"year" : 2012, "total" : 893},
+							{"year" : 2013, "total" : 893},
+							{"year" : 2014, "total" : 893},
+							{"year" : 2015, "total" : 893},
+							{"year" : 2016, "total" : 893}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Physics Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 9000000},
+							{"year" : 2012, "total" : 9000000},
+							{"year" : 2013, "total" : 9000000},
+							{"year" : 2014, "total" : 9000000},
+							{"year" : 2015, "total" : 9000000},
+							{"year" : 2016, "total" : 9000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 732},
+							{"year" : 2012, "total" : 732},
+							{"year" : 2013, "total" : 732},
+							{"year" : 2014, "total" : 732},
+							{"year" : 2015, "total" : 732},
+							{"year" : 2016, "total" : 732}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 3479},
@@ -461,9 +1137,87 @@
 					{ "name" : "ITB", "location" : "Bandung", "kuota" : 120, "graduate" : 100 }
 				],
 				"jobs": [
-					{ "name" : "Astronom", "salary" : 8000000,  "employee" : 454, "workload" : 8 },
-					{ "name" : "Peneliti", "salary" : 6000000, "employee" : 343, "workload" : 8},
-					{ "name": "Dosen", "salary": 5000000, "employee" : 593, "workload" : 5}
+					{ 
+						"name" : "Astronom",
+						"salary" : [
+							{"year" : 2011, "total" : 8000000},
+							{"year" : 2012, "total" : 8000000},
+							{"year" : 2013, "total" : 8000000},
+							{"year" : 2014, "total" : 8000000},
+							{"year" : 2015, "total" : 8000000},
+							{"year" : 2016, "total" : 8000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 454},
+							{"year" : 2012, "total" : 454},
+							{"year" : 2013, "total" : 454},
+							{"year" : 2014, "total" : 454},
+							{"year" : 2015, "total" : 454},
+							{"year" : 2016, "total" : 454}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 343},
+							{"year" : 2012, "total" : 343},
+							{"year" : 2013, "total" : 343},
+							{"year" : 2014, "total" : 343},
+							{"year" : 2015, "total" : 343},
+							{"year" : 2016, "total" : 343}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Dosen",
+						"salary" : [
+							{"year" : 2011, "total" : 5000000},
+							{"year" : 2012, "total" : 5000000},
+							{"year" : 2013, "total" : 5000000},
+							{"year" : 2014, "total" : 5000000},
+							{"year" : 2015, "total" : 5000000},
+							{"year" : 2016, "total" : 5000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 593},
+							{"year" : 2012, "total" : 593},
+							{"year" : 2013, "total" : 593},
+							{"year" : 2014, "total" : 593},
+							{"year" : 2015, "total" : 593},
+							{"year" : 2016, "total" : 593}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 4898},
@@ -522,8 +1276,60 @@
 					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 180, "graduate" : 168 }
 				],
 				"jobs": [
-					{ "name" : "Engineer", "salary" : 10000000,  "employee" : 4023, "workload" : 8 },
-					{ "name" : "Peneliti", "salary" : 6000000, "employee" : 893, "workload" : 8 }
+					{ 
+						"name" : "Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4023},
+							{"year" : 2012, "total" : 4023},
+							{"year" : 2013, "total" : 4023},
+							{"year" : 2014, "total" : 4023},
+							{"year" : 2015, "total" : 4023},
+							{"year" : 2016, "total" : 4023}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 893},
+							{"year" : 2012, "total" : 893},
+							{"year" : 2013, "total" : 893},
+							{"year" : 2014, "total" : 893},
+							{"year" : 2015, "total" : 893},
+							{"year" : 2016, "total" : 893}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2507},
@@ -582,9 +1388,87 @@
 					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
 				],
 				"jobs": [
-					{ "name" : "Dosen", "salary" : 5000000,  "employee" : 682, "workload" : 5 },
-					{ "name" : "Matematikawan", "salary" : 4000000, "employee" : 342, "workload" : 10},
-					{ "name" : "Asuransi", "salary": 6000000, "employee": 503, "workload": 8}
+					{ 
+						"name" : "Dosen",
+						"salary" : [
+							{"year" : 2011, "total" : 5000000},
+							{"year" : 2012, "total" : 5000000},
+							{"year" : 2013, "total" : 5000000},
+							{"year" : 2014, "total" : 5000000},
+							{"year" : 2015, "total" : 5000000},
+							{"year" : 2016, "total" : 5000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 682},
+							{"year" : 2012, "total" : 682},
+							{"year" : 2013, "total" : 682},
+							{"year" : 2014, "total" : 682},
+							{"year" : 2015, "total" : 682},
+							{"year" : 2016, "total" : 682}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					},
+					{ 
+						"name" : "Matematikawan",
+						"salary" : [
+							{"year" : 2011, "total" : 4000000},
+							{"year" : 2012, "total" : 4000000},
+							{"year" : 2013, "total" : 4000000},
+							{"year" : 2014, "total" : 4000000},
+							{"year" : 2015, "total" : 4000000},
+							{"year" : 2016, "total" : 4000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 342},
+							{"year" : 2012, "total" : 342},
+							{"year" : 2013, "total" : 342},
+							{"year" : 2014, "total" : 342},
+							{"year" : 2015, "total" : 342},
+							{"year" : 2016, "total" : 342}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name" : "Asuransi",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 503},
+							{"year" : 2012, "total" : 503},
+							{"year" : 2013, "total" : 503},
+							{"year" : 2014, "total" : 503},
+							{"year" : 2015, "total" : 503},
+							{"year" : 2016, "total" : 503}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 3724},
@@ -643,8 +1527,60 @@
 					{ "name" : "UNSRI", "location" : "Palembang", "kuota" : 150, "graduate" : 131 }
 				],
 				"jobs": [
-					{ "name" : "Peneliti", "salary" : 6000000,  "employee" : 502, "workload" : 8 },
-					{ "name" : "Dosen", "salary" : 5000000, "employee" : 393, "workload" : 5 }
+					{ 
+						"name" : "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 6000000},
+							{"year" : 2012, "total" : 6000000},
+							{"year" : 2013, "total" : 6000000},
+							{"year" : 2014, "total" : 6000000},
+							{"year" : 2015, "total" : 6000000},
+							{"year" : 2016, "total" : 6000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 502},
+							{"year" : 2012, "total" : 502},
+							{"year" : 2013, "total" : 502},
+							{"year" : 2014, "total" : 502},
+							{"year" : 2015, "total" : 502},
+							{"year" : 2016, "total" : 502}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Dosen",
+						"salary" : [
+							{"year" : 2011, "total" : 5000000},
+							{"year" : 2012, "total" : 5000000},
+							{"year" : 2013, "total" : 5000000},
+							{"year" : 2014, "total" : 5000000},
+							{"year" : 2015, "total" : 5000000},
+							{"year" : 2016, "total" : 5000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 393},
+							{"year" : 2012, "total" : 393},
+							{"year" : 2013, "total" : 393},
+							{"year" : 2014, "total" : 393},
+							{"year" : 2015, "total" : 393},
+							{"year" : 2016, "total" : 393}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1097},
@@ -703,8 +1639,60 @@
 					{ "name" : "Trisakti", "location" : "Jakarta", "kuota" : 160, "graduate" : 143 }
 				],
 				"jobs": [
-					{ "name" : "Engineer", "salary" : 10000000,  "employee" : 682, "workload" : 8 },
-					{ "name" : "Konstruktor", "salary" : 12000000, "employee" : 342, "workload" : 8}
+					{ 
+						"name" : "Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 10000000},
+							{"year" : 2012, "total" : 10000000},
+							{"year" : 2013, "total" : 10000000},
+							{"year" : 2014, "total" : 10000000},
+							{"year" : 2015, "total" : 10000000},
+							{"year" : 2016, "total" : 10000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 682},
+							{"year" : 2012, "total" : 682},
+							{"year" : 2013, "total" : 682},
+							{"year" : 2014, "total" : 682},
+							{"year" : 2015, "total" : 682},
+							{"year" : 2016, "total" : 682}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name" : "Konstruktor",
+						"salary" : [
+							{"year" : 2011, "total" : 12000000},
+							{"year" : 2012, "total" : 12000000},
+							{"year" : 2013, "total" : 12000000},
+							{"year" : 2014, "total" : 12000000},
+							{"year" : 2015, "total" : 12000000},
+							{"year" : 2016, "total" : 12000000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 342},
+							{"year" : 2012, "total" : 342},
+							{"year" : 2013, "total" : 342},
+							{"year" : 2014, "total" : 342},
+							{"year" : 2015, "total" : 342},
+							{"year" : 2016, "total" : 342}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 3141},
@@ -759,11 +1747,141 @@
 					{ "name" : "Trisakti", "location" : "Jakarta", "kuota" : 102, "graduate" : 89 }
 				],
 				"jobs": [
-					{ "name": "Departemen Transmigrasi", "salary":6825000, "employee":4839, "workload":7 },
-					{ "name": "Dinas Agraria", "salary":9621900, "employee":1284, "workload":9 },
-					{ "name": "Statistik", "salary":7852400, "employee":7938, "workload":8 },
-					{ "name": "Konsultan", "salary":12330000, "employee":7239, "workload":5 },
-					{ "name": "Pemda", "salary":14539483, "employee":2123, "workload":8 }
+					{ 
+						"name": "Departemen Transmigrasi",
+						"salary" : [
+							{"year" : 2011, "total" : 6825000},
+							{"year" : 2012, "total" : 6825000},
+							{"year" : 2013, "total" : 6825000},
+							{"year" : 2014, "total" : 6825000},
+							{"year" : 2015, "total" : 6825000},
+							{"year" : 2016, "total" : 6825000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4839},
+							{"year" : 2012, "total" : 4839},
+							{"year" : 2013, "total" : 4839},
+							{"year" : 2014, "total" : 4839},
+							{"year" : 2015, "total" : 4839},
+							{"year" : 2016, "total" : 4839}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 7},
+							{"year" : 2012, "total" : 7},
+							{"year" : 2013, "total" : 7},
+							{"year" : 2014, "total" : 7},
+							{"year" : 2015, "total" : 7},
+							{"year" : 2016, "total" : 7}
+						]
+					},
+					{ 
+						"name": "Dinas Agraria",
+						"salary" : [
+							{"year" : 2011, "total" : 9621900},
+							{"year" : 2012, "total" : 9621900},
+							{"year" : 2013, "total" : 9621900},
+							{"year" : 2014, "total" : 9621900},
+							{"year" : 2015, "total" : 9621900},
+							{"year" : 2016, "total" : 9621900}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1284},
+							{"year" : 2012, "total" : 1284},
+							{"year" : 2013, "total" : 1284},
+							{"year" : 2014, "total" : 1284},
+							{"year" : 2015, "total" : 1284},
+							{"year" : 2016, "total" : 1284}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 9},
+							{"year" : 2012, "total" : 9},
+							{"year" : 2013, "total" : 9},
+							{"year" : 2014, "total" : 9},
+							{"year" : 2015, "total" : 9},
+							{"year" : 2016, "total" : 9}
+						]
+					},
+					{ 
+						"name": "Statistik",
+						"salary" : [
+							{"year" : 2011, "total" : 7852400},
+							{"year" : 2012, "total" : 7852400},
+							{"year" : 2013, "total" : 7852400},
+							{"year" : 2014, "total" : 7852400},
+							{"year" : 2015, "total" : 7852400},
+							{"year" : 2016, "total" : 7852400}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 7938},
+							{"year" : 2012, "total" : 7938},
+							{"year" : 2013, "total" : 7938},
+							{"year" : 2014, "total" : 7938},
+							{"year" : 2015, "total" : 7938},
+							{"year" : 2016, "total" : 7938}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Konsultan",
+						"salary" : [
+							{"year" : 2011, "total" : 12330000},
+							{"year" : 2012, "total" : 12330000},
+							{"year" : 2013, "total" : 12330000},
+							{"year" : 2014, "total" : 12330000},
+							{"year" : 2015, "total" : 12330000},
+							{"year" : 2016, "total" : 12330000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 7239},
+							{"year" : 2012, "total" : 7239},
+							{"year" : 2013, "total" : 7239},
+							{"year" : 2014, "total" : 7239},
+							{"year" : 2015, "total" : 7239},
+							{"year" : 2016, "total" : 7239}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					},
+					{ 
+						"name": "Pemda",
+						"salary" : [
+							{"year" : 2011, "total" : 14539000},
+							{"year" : 2012, "total" : 14539000},
+							{"year" : 2013, "total" : 14539000},
+							{"year" : 2014, "total" : 14539000},
+							{"year" : 2015, "total" : 14539000},
+							{"year" : 2016, "total" : 14539000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 2123},
+							{"year" : 2012, "total" : 2123},
+							{"year" : 2013, "total" : 2123},
+							{"year" : 2014, "total" : 2123},
+							{"year" : 2015, "total" : 2123},
+							{"year" : 2016, "total" : 2123}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1415},
@@ -818,10 +1936,114 @@
 					{ "name": "UI", "location": "Depok", "kuota": 62, "graduate": 54 }
 				],
 				"jobs": [
-					{ "name": "Apoteker", "salary":8220134, "employee":8029, "workload": 10 },
-					{ "name": "Departemen Kesehatan", "salary":6502051, "employee":4290, "workload": 8 },
-					{ "name": "Industri Bahan Makanan", "salary":3923948, "employee":3404, "workload": 8 },
-					{ "name": "Kosmetika", "salary":3193529, "employee":5392, "workload": 5 }
+					{ 
+						"name": "Apoteker",
+						"salary" : [
+							{"year" : 2011, "total" : 8220000},
+							{"year" : 2012, "total" : 8220000},
+							{"year" : 2013, "total" : 8220000},
+							{"year" : 2014, "total" : 8220000},
+							{"year" : 2015, "total" : 8220000},
+							{"year" : 2016, "total" : 8220000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 8029},
+							{"year" : 2012, "total" : 8029},
+							{"year" : 2013, "total" : 8029},
+							{"year" : 2014, "total" : 8029},
+							{"year" : 2015, "total" : 8029},
+							{"year" : 2016, "total" : 8029}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Departemen Kesehatan",
+						"salary" : [
+							{"year" : 2011, "total" : 6502000},
+							{"year" : 2012, "total" : 6502000},
+							{"year" : 2013, "total" : 6502000},
+							{"year" : 2014, "total" : 6502000},
+							{"year" : 2015, "total" : 6502000},
+							{"year" : 2016, "total" : 6502000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4290},
+							{"year" : 2012, "total" : 4290},
+							{"year" : 2013, "total" : 4290},
+							{"year" : 2014, "total" : 4290},
+							{"year" : 2015, "total" : 4290},
+							{"year" : 2016, "total" : 4290}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Industri Bahan Makanan",
+						"salary" : [
+							{"year" : 2011, "total" : 3923000},
+							{"year" : 2012, "total" : 3923000},
+							{"year" : 2013, "total" : 3923000},
+							{"year" : 2014, "total" : 3923000},
+							{"year" : 2015, "total" : 3923000},
+							{"year" : 2016, "total" : 3923000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3404},
+							{"year" : 2012, "total" : 3404},
+							{"year" : 2013, "total" : 3404},
+							{"year" : 2014, "total" : 3404},
+							{"year" : 2015, "total" : 3404},
+							{"year" : 2016, "total" : 3404}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Kosmetika",
+						"salary" : [
+							{"year" : 2011, "total" : 3193000},
+							{"year" : 2012, "total" : 3193000},
+							{"year" : 2013, "total" : 3193000},
+							{"year" : 2014, "total" : 3193000},
+							{"year" : 2015, "total" : 3193000},
+							{"year" : 2016, "total" : 3193000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4392},
+							{"year" : 2012, "total" : 4392},
+							{"year" : 2013, "total" : 4392},
+							{"year" : 2014, "total" : 4392},
+							{"year" : 2015, "total" : 4392},
+							{"year" : 2016, "total" : 4392}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 5},
+							{"year" : 2012, "total" : 5},
+							{"year" : 2013, "total" : 5},
+							{"year" : 2014, "total" : 5},
+							{"year" : 2015, "total" : 5},
+							{"year" : 2016, "total" : 5}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1136},
@@ -876,11 +2098,114 @@
 					{ "name": "UI", "location": "Depok", "kuota": 90, "graduate": 72 }
 				],
 				"jobs": [
-					{ "name": "Industri Pertanian", "salary":7804392, "employee":9293, "workload": 8 },
-					{ "name": "Industri Farmasi", "salary":5839284, "employee":5323, "workload": 8 },
-					{ "name": "Peneliti", "salary":8392842, "employee":7392, "workload": 10 },
-					{ "name": "Ahli Biologi", "salary":4392941, "employee":8473, "workload": 10 },
-					{ "name": "Guru", "salary":3739284, "employee":1029, "workload": 8 }
+					{ 
+						"name": "Industri Pertanian",
+						"salary" : [
+							{"year" : 2011, "total" : 7804000},
+							{"year" : 2012, "total" : 7804000},
+							{"year" : 2013, "total" : 7804000},
+							{"year" : 2014, "total" : 7804000},
+							{"year" : 2015, "total" : 7804000},
+							{"year" : 2016, "total" : 7804000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 5293},
+							{"year" : 2012, "total" : 5293},
+							{"year" : 2013, "total" : 5293},
+							{"year" : 2014, "total" : 5293},
+							{"year" : 2015, "total" : 5293},
+							{"year" : 2016, "total" : 5293}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 8392000},
+							{"year" : 2012, "total" : 8392000},
+							{"year" : 2013, "total" : 8392000},
+							{"year" : 2014, "total" : 8392000},
+							{"year" : 2015, "total" : 8392000},
+							{"year" : 2016, "total" : 8392000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 7392},
+							{"year" : 2012, "total" : 7392},
+							{"year" : 2013, "total" : 7392},
+							{"year" : 2014, "total" : 7392},
+							{"year" : 2015, "total" : 7392},
+							{"year" : 2016, "total" : 7392}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Ahli Biologi",
+						"salary" : [
+							{"year" : 2011, "total" : 4392000},
+							{"year" : 2012, "total" : 4392000},
+							{"year" : 2013, "total" : 4392000},
+							{"year" : 2014, "total" : 4392000},
+							{"year" : 2015, "total" : 4392000},
+							{"year" : 2016, "total" : 4392000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4473},
+							{"year" : 2012, "total" : 4473},
+							{"year" : 2013, "total" : 4473},
+							{"year" : 2014, "total" : 4473},
+							{"year" : 2015, "total" : 4473},
+							{"year" : 2016, "total" : 4473}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Guru",
+						"salary" : [
+							{"year" : 2011, "total" : 3739000},
+							{"year" : 2012, "total" : 3739000},
+							{"year" : 2013, "total" : 3739000},
+							{"year" : 2014, "total" : 3739000},
+							{"year" : 2015, "total" : 3739000},
+							{"year" : 2016, "total" : 3739000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1029},
+							{"year" : 2012, "total" : 1029},
+							{"year" : 2013, "total" : 1029},
+							{"year" : 2014, "total" : 1029},
+							{"year" : 2015, "total" : 1029},
+							{"year" : 2016, "total" : 1029}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 847},
@@ -935,10 +2260,114 @@
 					{ "name": "UNDIP", "location": "Semarang", "kuota": 90, "graduate": 87 }
 				],
 				"jobs": [
-					{ "name": "Arsitektur", "salary":4820103, "employee":4930, "workload": 10 },
-					{ "name": "Kontraktor", "salary":8029382, "employee":3024, "workload": 8 },
-					{ "name": "Tata Kota", "salary":5929483, "employee":5403, "workload": 9 },
-					{ "name": "Konsultan", "salary":1049325, "employee":4321, "workload": 6 }
+					{ 
+						"name": "Arsitektur",
+						"salary" : [
+							{"year" : 2011, "total" : 4820000},
+							{"year" : 2012, "total" : 4820000},
+							{"year" : 2013, "total" : 4820000},
+							{"year" : 2014, "total" : 4820000},
+							{"year" : 2015, "total" : 4820000},
+							{"year" : 2016, "total" : 4820000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 2930},
+							{"year" : 2012, "total" : 2930},
+							{"year" : 2013, "total" : 2930},
+							{"year" : 2014, "total" : 2930},
+							{"year" : 2015, "total" : 2930},
+							{"year" : 2016, "total" : 2930}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Kontraktor",
+						"salary" : [
+							{"year" : 2011, "total" : 8029000},
+							{"year" : 2012, "total" : 8029000},
+							{"year" : 2013, "total" : 8029000},
+							{"year" : 2014, "total" : 8029000},
+							{"year" : 2015, "total" : 8029000},
+							{"year" : 2016, "total" : 8029000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3024},
+							{"year" : 2012, "total" : 3024},
+							{"year" : 2013, "total" : 3024},
+							{"year" : 2014, "total" : 3024},
+							{"year" : 2015, "total" : 3024},
+							{"year" : 2016, "total" : 3024}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Tata Kota",
+						"salary" : [
+							{"year" : 2011, "total" : 5929000},
+							{"year" : 2012, "total" : 5929000},
+							{"year" : 2013, "total" : 5929000},
+							{"year" : 2014, "total" : 5929000},
+							{"year" : 2015, "total" : 5929000},
+							{"year" : 2016, "total" : 5929000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 5403},
+							{"year" : 2012, "total" : 5403},
+							{"year" : 2013, "total" : 5403},
+							{"year" : 2014, "total" : 5403},
+							{"year" : 2015, "total" : 5403},
+							{"year" : 2016, "total" : 5403}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 9},
+							{"year" : 2012, "total" : 9},
+							{"year" : 2013, "total" : 9},
+							{"year" : 2014, "total" : 9},
+							{"year" : 2015, "total" : 9},
+							{"year" : 2016, "total" : 9}
+						]
+					},
+					{ 
+						"name": "Konsultan",
+						"salary" : [
+							{"year" : 2011, "total" : 10490000},
+							{"year" : 2012, "total" : 10490000},
+							{"year" : 2013, "total" : 10490000},
+							{"year" : 2014, "total" : 10490000},
+							{"year" : 2015, "total" : 10490000},
+							{"year" : 2016, "total" : 10490000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4321},
+							{"year" : 2012, "total" : 4321},
+							{"year" : 2013, "total" : 4321},
+							{"year" : 2014, "total" : 4321},
+							{"year" : 2015, "total" : 4321},
+							{"year" : 2016, "total" : 4321}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 6},
+							{"year" : 2012, "total" : 6},
+							{"year" : 2013, "total" : 6},
+							{"year" : 2014, "total" : 6},
+							{"year" : 2015, "total" : 6},
+							{"year" : 2016, "total" : 6}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 4715},
@@ -993,11 +2422,114 @@
 					{ "name": "UNTAR", "location": "Jakarta", "kuota": 101, "graduate": 89 }
 				],
 				"jobs": [
-					{ "name": "Kontraktor", "salary":8932843, "employee":5493, "workload": 8 },
-					{ "name": "Insinyur Struktur", "salary":9238421, "employee":3402, "workload": 8 },
-					{ "name": "Surveyor", "salary":6748329, "employee":4830, "workload": 8 },
-					{ "name": "Konsultan", "salary":7849302, "employee":2934, "workload": 6 },
-					{ "name": "Insinyur Konstruksi", "salary":8374732, "employee":5943, "workload": 9 }
+					{ 
+						"name": "Kontraktor",
+						"salary" : [
+							{"year" : 2011, "total" : 8932000},
+							{"year" : 2012, "total" : 8932000},
+							{"year" : 2013, "total" : 8932000},
+							{"year" : 2014, "total" : 8932000},
+							{"year" : 2015, "total" : 8932000},
+							{"year" : 2016, "total" : 8932000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 5493},
+							{"year" : 2012, "total" : 5493},
+							{"year" : 2013, "total" : 5493},
+							{"year" : 2014, "total" : 5493},
+							{"year" : 2015, "total" : 5493},
+							{"year" : 2016, "total" : 5493}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Insinyur Struktur",
+						"salary" : [
+							{"year" : 2011, "total" : 9238000},
+							{"year" : 2012, "total" : 9238000},
+							{"year" : 2013, "total" : 9238000},
+							{"year" : 2014, "total" : 9238000},
+							{"year" : 2015, "total" : 9238000},
+							{"year" : 2016, "total" : 9238000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3402},
+							{"year" : 2012, "total" : 3402},
+							{"year" : 2013, "total" : 3402},
+							{"year" : 2014, "total" : 3402},
+							{"year" : 2015, "total" : 3402},
+							{"year" : 2016, "total" : 3402}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Surveyor",
+						"salary" : [
+							{"year" : 2011, "total" : 6748000},
+							{"year" : 2012, "total" : 6748000},
+							{"year" : 2013, "total" : 6748000},
+							{"year" : 2014, "total" : 6748000},
+							{"year" : 2015, "total" : 6748000},
+							{"year" : 2016, "total" : 6748000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4830},
+							{"year" : 2012, "total" : 4830},
+							{"year" : 2013, "total" : 4830},
+							{"year" : 2014, "total" : 4830},
+							{"year" : 2015, "total" : 4830},
+							{"year" : 2016, "total" : 4830}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Konsultan",
+						"salary" : [
+							{"year" : 2011, "total" : 7849000},
+							{"year" : 2012, "total" : 7849000},
+							{"year" : 2013, "total" : 7849000},
+							{"year" : 2014, "total" : 7849000},
+							{"year" : 2015, "total" : 7849000},
+							{"year" : 2016, "total" : 7849000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 2934},
+							{"year" : 2012, "total" : 2934},
+							{"year" : 2013, "total" : 2934},
+							{"year" : 2014, "total" : 2934},
+							{"year" : 2015, "total" : 2934},
+							{"year" : 2016, "total" : 2934}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 6},
+							{"year" : 2012, "total" : 6},
+							{"year" : 2013, "total" : 6},
+							{"year" : 2014, "total" : 6},
+							{"year" : 2015, "total" : 6},
+							{"year" : 2016, "total" : 6}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 1985},
@@ -1052,11 +2584,114 @@
 					{ "name": "UNDIP", "location": "Semarang", "kuota": 89, "graduate": 80 }
 				],
 				"jobs": [
-					{ "name": "Mekanik", "salary":9230231, "employee":5403, "workload": 8 },
-					{ "name": "Reservoir Engineer", "salary":8302183, "employee":3252, "workload": 8 },
-					{ "name": "Maintenance Engineer", "salary":6950432, "employee":1235, "workload": 9 },
-					{ "name": "Mechanical Packing Engineer", "salary":10234256, "employee":4024, "workload": 10 },
-					{ "name": "Konsultan", "salary":7394932, "employee":3352, "workload": 6 }
+					{ 
+						"name": "Mekanik",
+						"salary" : [
+							{"year" : 2011, "total" : 9230000},
+							{"year" : 2012, "total" : 9230000},
+							{"year" : 2013, "total" : 9230000},
+							{"year" : 2014, "total" : 9230000},
+							{"year" : 2015, "total" : 9230000},
+							{"year" : 2016, "total" : 9230000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3403},
+							{"year" : 2012, "total" : 3403},
+							{"year" : 2013, "total" : 3403},
+							{"year" : 2014, "total" : 3403},
+							{"year" : 2015, "total" : 3403},
+							{"year" : 2016, "total" : 3403}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Reservoir Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 8302000},
+							{"year" : 2012, "total" : 8302000},
+							{"year" : 2013, "total" : 8302000},
+							{"year" : 2014, "total" : 8302000},
+							{"year" : 2015, "total" : 8302000},
+							{"year" : 2016, "total" : 8302000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3252},
+							{"year" : 2012, "total" : 3252},
+							{"year" : 2013, "total" : 3252},
+							{"year" : 2014, "total" : 3252},
+							{"year" : 2015, "total" : 3252},
+							{"year" : 2016, "total" : 3252}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Maintenance Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 6950000},
+							{"year" : 2012, "total" : 6950000},
+							{"year" : 2013, "total" : 6950000},
+							{"year" : 2014, "total" : 6950000},
+							{"year" : 2015, "total" : 6950000},
+							{"year" : 2016, "total" : 6950000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1235},
+							{"year" : 2012, "total" : 1235},
+							{"year" : 2013, "total" : 1235},
+							{"year" : 2014, "total" : 1235},
+							{"year" : 2015, "total" : 1235},
+							{"year" : 2016, "total" : 1235}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 9},
+							{"year" : 2012, "total" : 9},
+							{"year" : 2013, "total" : 9},
+							{"year" : 2014, "total" : 9},
+							{"year" : 2015, "total" : 9},
+							{"year" : 2016, "total" : 9}
+						]
+					},
+					{ 
+						"name": "Mechanical Packing Engineer",
+						"salary" : [
+							{"year" : 2011, "total" : 10234000},
+							{"year" : 2012, "total" : 10234000},
+							{"year" : 2013, "total" : 10234000},
+							{"year" : 2014, "total" : 10234000},
+							{"year" : 2015, "total" : 10234000},
+							{"year" : 2016, "total" : 10234000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4024},
+							{"year" : 2012, "total" : 4024},
+							{"year" : 2013, "total" : 4024},
+							{"year" : 2014, "total" : 4024},
+							{"year" : 2015, "total" : 4024},
+							{"year" : 2016, "total" : 4024}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2253},
@@ -1111,10 +2746,114 @@
 					{ "name" : "Unbraw", "location" : "Semarang", "kuota" : 130, "graduate" : 121 }
 				],
 				"jobs": [
-					{ "name": "Insinyur", "salary":12384932, "employee":5493, "workload": 8 },
-					{ "name": "Operator", "salary":7382913, "employee":3024, "workload": 10 },
-					{ "name": "Spesialis Lingkungan", "salary":8829318, "employee":6043, "workload": 11 },
-					{ "name": "Peneliti", "salary":9029483, "employee":6382, "workload": 8 }
+					{ 
+						"name": "Insinyur",
+						"salary" : [
+							{"year" : 2011, "total" : 12384000},
+							{"year" : 2012, "total" : 12384000},
+							{"year" : 2013, "total" : 12384000},
+							{"year" : 2014, "total" : 12384000},
+							{"year" : 2015, "total" : 12384000},
+							{"year" : 2016, "total" : 12384000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 5493},
+							{"year" : 2012, "total" : 5493},
+							{"year" : 2013, "total" : 5493},
+							{"year" : 2014, "total" : 5493},
+							{"year" : 2015, "total" : 5493},
+							{"year" : 2016, "total" : 5493}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					},
+					{ 
+						"name": "Operator",
+						"salary" : [
+							{"year" : 2011, "total" : 7382000},
+							{"year" : 2012, "total" : 7382000},
+							{"year" : 2013, "total" : 7382000},
+							{"year" : 2014, "total" : 7382000},
+							{"year" : 2015, "total" : 7382000},
+							{"year" : 2016, "total" : 7382000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3024},
+							{"year" : 2012, "total" : 3024},
+							{"year" : 2013, "total" : 3024},
+							{"year" : 2014, "total" : 3024},
+							{"year" : 2015, "total" : 3024},
+							{"year" : 2016, "total" : 3024}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Spesialis Lingkungan",
+						"salary" : [
+							{"year" : 2011, "total" : 8829000},
+							{"year" : 2012, "total" : 8829000},
+							{"year" : 2013, "total" : 8829000},
+							{"year" : 2014, "total" : 8829000},
+							{"year" : 2015, "total" : 8829000},
+							{"year" : 2016, "total" : 8829000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3043},
+							{"year" : 2012, "total" : 3043},
+							{"year" : 2013, "total" : 3043},
+							{"year" : 2014, "total" : 3043},
+							{"year" : 2015, "total" : 3043},
+							{"year" : 2016, "total" : 3043}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 11},
+							{"year" : 2012, "total" : 11},
+							{"year" : 2013, "total" : 11},
+							{"year" : 2014, "total" : 11},
+							{"year" : 2015, "total" : 11},
+							{"year" : 2016, "total" : 11}
+						]
+					},
+					{ 
+						"name": "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 9029000},
+							{"year" : 2012, "total" : 9029000},
+							{"year" : 2013, "total" : 9029000},
+							{"year" : 2014, "total" : 9029000},
+							{"year" : 2015, "total" : 9029000},
+							{"year" : 2016, "total" : 9029000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3382},
+							{"year" : 2012, "total" : 3382},
+							{"year" : 2013, "total" : 3382},
+							{"year" : 2014, "total" : 3382},
+							{"year" : 2015, "total" : 3382},
+							{"year" : 2016, "total" : 3382}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 3088},
@@ -1169,10 +2908,114 @@
 					{ "name": "UNITRA", "location": "Banten", "kuota": 98, "graduate": 78 }
 				],
 				"jobs": [
-					{ "name": "Industri Pertambangan", "salary":20039482, "employee":6049, "workload": 15 },
-					{ "name": "Industri Ekstrasi", "salary":15948543, "employee":7304, "workload": 12 },
-					{ "name": "Industri Baja", "salary":13948593, "employee":3054, "workload": 13 },
-					{ "name": "Peneliti", "salary":9849382, "employee":2404, "workload": 8 }
+					{ 
+						"name": "Industri Pertambangan",
+						"salary" : [
+							{"year" : 2011, "total" : 20039000},
+							{"year" : 2012, "total" : 20039000},
+							{"year" : 2013, "total" : 20039000},
+							{"year" : 2014, "total" : 20039000},
+							{"year" : 2015, "total" : 20039000},
+							{"year" : 2016, "total" : 20039000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4049},
+							{"year" : 2012, "total" : 4049},
+							{"year" : 2013, "total" : 4049},
+							{"year" : 2014, "total" : 4049},
+							{"year" : 2015, "total" : 4049},
+							{"year" : 2016, "total" : 4049}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 15},
+							{"year" : 2012, "total" : 15},
+							{"year" : 2013, "total" : 15},
+							{"year" : 2014, "total" : 15},
+							{"year" : 2015, "total" : 15},
+							{"year" : 2016, "total" : 15}
+						]
+					},
+					{ 
+						"name": "Industri Ekstrasi",
+						"salary" : [
+							{"year" : 2011, "total" : 15948000},
+							{"year" : 2012, "total" : 15948000},
+							{"year" : 2013, "total" : 15948000},
+							{"year" : 2014, "total" : 15948000},
+							{"year" : 2015, "total" : 15948000},
+							{"year" : 2016, "total" : 15948000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4304},
+							{"year" : 2012, "total" : 4304},
+							{"year" : 2013, "total" : 4304},
+							{"year" : 2014, "total" : 4304},
+							{"year" : 2015, "total" : 4304},
+							{"year" : 2016, "total" : 4304}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 12},
+							{"year" : 2012, "total" : 12},
+							{"year" : 2013, "total" : 12},
+							{"year" : 2014, "total" : 12},
+							{"year" : 2015, "total" : 12},
+							{"year" : 2016, "total" : 12}
+						]
+					},
+					{ 
+						"name": "Industri Baja",
+						"salary" : [
+							{"year" : 2011, "total" : 13940000},
+							{"year" : 2012, "total" : 13940000},
+							{"year" : 2013, "total" : 13940000},
+							{"year" : 2014, "total" : 13940000},
+							{"year" : 2015, "total" : 13940000},
+							{"year" : 2016, "total" : 13940000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 3054},
+							{"year" : 2012, "total" : 3054},
+							{"year" : 2013, "total" : 3054},
+							{"year" : 2014, "total" : 3054},
+							{"year" : 2015, "total" : 3054},
+							{"year" : 2016, "total" : 3054}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 13},
+							{"year" : 2012, "total" : 13},
+							{"year" : 2013, "total" : 13},
+							{"year" : 2014, "total" : 13},
+							{"year" : 2015, "total" : 13},
+							{"year" : 2016, "total" : 13}
+						]
+					},
+					{ 
+						"name": "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 9849000},
+							{"year" : 2012, "total" : 9849000},
+							{"year" : 2013, "total" : 9849000},
+							{"year" : 2014, "total" : 9849000},
+							{"year" : 2015, "total" : 9849000},
+							{"year" : 2016, "total" : 9849000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 2404},
+							{"year" : 2012, "total" : 2404},
+							{"year" : 2013, "total" : 2404},
+							{"year" : 2014, "total" : 2404},
+							{"year" : 2015, "total" : 2404},
+							{"year" : 2016, "total" : 2404}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 8},
+							{"year" : 2012, "total" : 8},
+							{"year" : 2013, "total" : 8},
+							{"year" : 2014, "total" : 8},
+							{"year" : 2015, "total" : 8},
+							{"year" : 2016, "total" : 8}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 2408},
@@ -1227,9 +3070,87 @@
 					{ "name" : "Atma Jaya", "location" : "Jakarta", "kuota" : 120, "graduate" : 111 }
 				],
 				"jobs": [
-					{ "name": "Teknisi", "salary":18392834, "employee":4329, "workload": 11 },
-					{ "name": "Ahli Aerospace", "salary":12940394, "employee":5423, "workload": 10 },
-					{ "name": "Peneliti", "salary":10304593, "employee":1305, "workload": 11 }
+					{ 
+						"name": "Teknisi",
+						"salary" : [
+							{"year" : 2011, "total" : 18392000},
+							{"year" : 2012, "total" : 18392000},
+							{"year" : 2013, "total" : 18392000},
+							{"year" : 2014, "total" : 18392000},
+							{"year" : 2015, "total" : 18392000},
+							{"year" : 2016, "total" : 18392000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 4329},
+							{"year" : 2012, "total" : 4329},
+							{"year" : 2013, "total" : 4329},
+							{"year" : 2014, "total" : 4329},
+							{"year" : 2015, "total" : 4329},
+							{"year" : 2016, "total" : 4329}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 11},
+							{"year" : 2012, "total" : 11},
+							{"year" : 2013, "total" : 11},
+							{"year" : 2014, "total" : 11},
+							{"year" : 2015, "total" : 11},
+							{"year" : 2016, "total" : 11}
+						]
+					},
+					{ 
+						"name": "Ahli Aerospace",
+						"salary" : [
+							{"year" : 2011, "total" : 12940000},
+							{"year" : 2012, "total" : 12940000},
+							{"year" : 2013, "total" : 12940000},
+							{"year" : 2014, "total" : 12940000},
+							{"year" : 2015, "total" : 12940000},
+							{"year" : 2016, "total" : 12940000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 5423},
+							{"year" : 2012, "total" : 5423},
+							{"year" : 2013, "total" : 5423},
+							{"year" : 2014, "total" : 5423},
+							{"year" : 2015, "total" : 5423},
+							{"year" : 2016, "total" : 5423}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 10},
+							{"year" : 2012, "total" : 10},
+							{"year" : 2013, "total" : 10},
+							{"year" : 2014, "total" : 10},
+							{"year" : 2015, "total" : 10},
+							{"year" : 2016, "total" : 10}
+						]
+					},
+					{ 
+						"name": "Peneliti",
+						"salary" : [
+							{"year" : 2011, "total" : 10304000},
+							{"year" : 2012, "total" : 10304000},
+							{"year" : 2013, "total" : 10304000},
+							{"year" : 2014, "total" : 10304000},
+							{"year" : 2015, "total" : 10304000},
+							{"year" : 2016, "total" : 10304000}
+						],  
+						"employee" : [
+							{"year" : 2011, "total" : 1305},
+							{"year" : 2012, "total" : 1305},
+							{"year" : 2013, "total" : 1305},
+							{"year" : 2014, "total" : 1305},
+							{"year" : 2015, "total" : 1305},
+							{"year" : 2016, "total" : 1305}
+						],
+						"workload" : [
+							{"year" : 2011, "total" : 11},
+							{"year" : 2012, "total" : 11},
+							{"year" : 2013, "total" : 11},
+							{"year" : 2014, "total" : 11},
+							{"year" : 2015, "total" : 11},
+							{"year" : 2016, "total" : 11}
+						]
+					}
 				],
 				"opinion":[
 					{"name" : "SERU", "total" : 4827},
