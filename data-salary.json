@@ -1,6 +1,6 @@
 { "majors":[
   "Komputer",
-  "Bisnis",
+  "Kewirausahaan",
   "Kedokteran",
   "Psikologi",
   "Ekonomi",
@@ -24,7 +24,7 @@
   "averageAnnualSalaries":{
     "2011":[
       { "major":"Komputer", "salary":15691775 },
-      { "major":"Bisnis", "salary":12154250 },
+      { "major":"Kewirausahaan", "salary":12154250 },
       { "major":"Kedokteran", "salary":8899699 },
       { "major":"Psikologi", "salary":12164308 },
       { "major":"Ekonomi", "salary":12231036 },
@@ -47,7 +47,7 @@
     ],
     "2012":[
       { "major":"Komputer", "salary":13724887 },
-      { "major":"Bisnis", "salary":8641750 },
+      { "major":"Kewirausahaan", "salary":8641750 },
       { "major":"Kedokteran", "salary":11048250 },
       { "major":"Psikologi", "salary":8885450 },
       { "major":"Ekonomi", "salary":12194981 },
@@ -70,7 +70,7 @@
     ],
     "2013":[
       { "major":"Komputer", "salary":17760790 },
-      { "major":"Bisnis", "salary":7487447 },
+      { "major":"Kewirausahaan", "salary":7487447 },
       { "major":"Kedokteran", "salary":8061224 },
       { "major":"Psikologi", "salary":8390842 },
       { "major":"Ekonomi", "salary":13390713 },
@@ -93,7 +93,7 @@
     ],
     "2014":[
       { "major":"Komputer", "salary":15576039 },
-      { "major":"Bisnis", "salary":8636894 },
+      { "major":"Kewirausahaan", "salary":8636894 },
       { "major":"Kedokteran", "salary":8682308 },
       { "major":"Psikologi", "salary":9681624 },
       { "major":"Ekonomi", "salary":13618830 },
@@ -116,7 +116,7 @@
     ],
     "2015":[
       { "major":"Komputer", "salary":17055646 },
-      { "major":"Bisnis", "salary":7936732 },
+      { "major":"Kewirausahaan", "salary":7936732 },
       { "major":"Kedokteran", "salary":7078479 },
       { "major":"Psikologi", "salary":10254341 },
       { "major":"Ekonomi", "salary":9888570 },
@@ -139,7 +139,7 @@
     ],
     "2016":[
       { "major":"Komputer", "salary":19342439 },
-      { "major":"Bisnis", "salary":7924639 },
+      { "major":"Kewirausahaan", "salary":7924639 },
       { "major":"Kedokteran", "salary":7569642 },
       { "major":"Psikologi", "salary":10855089 },
       { "major":"Ekonomi", "salary":9328751 },
@@ -164,7 +164,7 @@
   "averageCost":{
     "2011":[
       { "major":"Komputer", "cost":144435247 },
-      { "major":"Bisnis", "cost":111465229 },
+      { "major":"Kewirausahaan", "cost":111465229 },
       { "major":"Kedokteran", "cost":142347600 },
       { "major":"Psikologi", "cost":52988424 },
       { "major":"Ekonomi", "cost":120833661 },
@@ -187,7 +187,7 @@
     ],
     "2012":[
       { "major":"Komputer", "cost":162921407 },
-      { "major":"Bisnis", "cost":133827398 },
+      { "major":"Kewirausahaan", "cost":133827398 },
       { "major":"Kedokteran", "cost":109470568 },
       { "major":"Psikologi", "cost":41962908 },
       { "major":"Ekonomi", "cost":99465520 },
@@ -210,7 +210,7 @@
     ],
     "2013":[
       { "major":"Komputer", "cost":203140516 },
-      { "major":"Bisnis", "cost":118444709 },
+      { "major":"Kewirausahaan", "cost":118444709 },
       { "major":"Kedokteran", "cost":103223495 },
       { "major":"Psikologi", "cost":35347975 },
       { "major":"Ekonomi", "cost":113451441 },
@@ -233,7 +233,7 @@
     ],
     "2014":[
       { "major":"Komputer", "cost":187837608 },
-      { "major":"Bisnis", "cost":137136246 },
+      { "major":"Kewirausahaan", "cost":137136246 },
       { "major":"Kedokteran", "cost":81808321 },
       { "major":"Psikologi", "cost":39989166 },
       { "major":"Ekonomi", "cost":123683202 },
@@ -256,7 +256,7 @@
     ],
     "2015":[
       { "major":"Komputer", "cost":237869078 },
-      { "major":"Bisnis", "cost":145990303 },
+      { "major":"Kewirausahaan", "cost":145990303 },
       { "major":"Kedokteran", "cost":78351185 },
       { "major":"Psikologi", "cost":38083835 },
       { "major":"Ekonomi", "cost":96879870 },
@@ -279,7 +279,7 @@
     ],
     "2016":[
       { "major":"Komputer", "cost":214870957 },
-      { "major":"Bisnis", "cost":116963626 },
+      { "major":"Kewirausahaan", "cost":116963626 },
       { "major":"Kedokteran", "cost":92447241 },
       { "major":"Psikologi", "cost":39909793 },
       { "major":"Ekonomi", "cost":76159101 },
@@ -304,7 +304,7 @@
   "passions":{
     "2011":[
       { "major":"Komputer", "total":19808 },
-      { "major":"Bisnis", "total":24111 },
+      { "major":"Kewirausahaan", "total":24111 },
       { "major":"Kedokteran", "total":5382 },
       { "major":"Psikologi", "total":19412 },
       { "major":"Ekonomi", "total":16694 },
@@ -327,7 +327,7 @@
     ],
     "2012":[
       { "major":"Komputer", "total":20628 },
-      { "major":"Bisnis", "total":19139 },
+      { "major":"Kewirausahaan", "total":19139 },
       { "major":"Kedokteran", "total":6710 },
       { "major":"Psikologi", "total":19481 },
       { "major":"Ekonomi", "total":15164 },
@@ -350,7 +350,7 @@
     ],
     "2013":[
       { "major":"Komputer", "total":18936 },
-      { "major":"Bisnis", "total":23245 },
+      { "major":"Kewirausahaan", "total":23245 },
       { "major":"Kedokteran", "total":7310 },
       { "major":"Psikologi", "total":17866 },
       { "major":"Ekonomi", "total":14991 },
@@ -373,7 +373,7 @@
     ],
     "2014":[
       { "major":"Komputer", "total":13345 },
-      { "major":"Bisnis", "total":22589 },
+      { "major":"Kewirausahaan", "total":22589 },
       { "major":"Kedokteran", "total":7095 },
       { "major":"Psikologi", "total":22465 },
       { "major":"Ekonomi", "total":12706 },
@@ -396,7 +396,7 @@
     ],
     "2015":[
       { "major":"Komputer", "total":13270 },
-      { "major":"Bisnis", "total":22846 },
+      { "major":"Kewirausahaan", "total":22846 },
       { "major":"Kedokteran", "total":6349 },
       { "major":"Psikologi", "total":22772 },
       { "major":"Ekonomi", "total":8922 },
@@ -419,7 +419,7 @@
     ],
     "2016":[
       { "major":"Komputer", "total":9338 },
-      { "major":"Bisnis", "total":27577 },
+      { "major":"Kewirausahaan", "total":27577 },
       { "major":"Kedokteran", "total":7980 },
       { "major":"Psikologi", "total":19852 },
       { "major":"Ekonomi", "total":6404 },

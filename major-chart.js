@@ -6,7 +6,7 @@ var updateDescription = function () {
   $("#description-major").html(jsonData.description);
 };
 
-var drawJobChart = function () {
+var drawJobChart = function (selectedYear) {
   d3.select("#job-chart").html("");
   
   var svg = d3.select("#job-chart"),
@@ -21,8 +21,8 @@ var drawJobChart = function () {
   var y = d3.scaleLinear().range([height, 0]);
   var color = d3.scaleOrdinal(d3.schemeCategory10);
   
-  x.domain([0, d3.max(jobData, function (d) { return d.employee[5].total })]);
-  y.domain([0, d3.max(jobData, function (d) { return d.salary[5].total })]);
+  x.domain([0, d3.max(jobData, function (d) { return _.find(d.employee, { year: selectedYear }).total })]);
+  y.domain([0, d3.max(jobData, function (d) { return _.find(d.salary, { year: selectedYear }).total })]);
   color.domain(jobData, function (d) { return d.name });
   
   g.append("g")
@@ -47,8 +47,8 @@ var drawJobChart = function () {
   g.selectAll("circle")
     .data(jobData)
     .enter().append("circle")
-      .attr("cx", function (d) { return x(d.employee[5].total); })
-      .attr("cy", function (d) { return y(d.salary[5].total); })
+      .attr("cx", function (d) { return x(_.find(d.employee, { year: selectedYear }).total); })
+      .attr("cy", function (d) { return y(_.find(d.salary, { year: selectedYear }).total); })
       .attr("r", 10)
       .attr("fill", function (d) { return color(d.name) });
   
@@ -56,7 +56,7 @@ var drawJobChart = function () {
     .data(jobData)
     .enter().append("text")
       .attr("transform", function (d) {
-        return "translate(" + (x(d.employee[5].total) + 12) + ", " + y(d.salary[5].total) + ")";
+        return "translate(" + (x(_.find(d.employee, { year: selectedYear }).total) + 12) + ", " + y(_.find(d.salary, { year: selectedYear }).total) + ")";
       })
       .attr("dy", "0.35em")
       .style("font", "11px sans-serif")
@@ -217,7 +217,7 @@ $(document).ready(function () {
     });
     
     $(".major-title").html(major);
-    drawJobChart();
+    // drawJobChart();
     drawGenderChart();
     drawWordCloud();
     updateDescription();
@@ -232,3 +232,18 @@ function qs(key) {
   return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 };
 
+$(document).ready(function() {
+
+  $('.dropdown-filter-year-job-chart').dropdown({
+    onChange: function(value, text, $selectedItem) {
+      var selectedYear = $('.dropdown-filter-year-job-chart').dropdown('get value');
+
+      if (selectedYear) drawJobChart(Number(selectedYear));
+    }
+  });
+
+  setTimeout(function() {
+    $('.dropdown-filter-year-job-chart').dropdown('set selected', '2016');
+  }, 0)
+
+})

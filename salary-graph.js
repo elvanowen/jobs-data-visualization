@@ -3,7 +3,7 @@ var majorActiveArray = [];
 
 var MAJOR_LIST = [
   "komputer",
-  "bisnis",
+  "kewirausahaan",
   "kedokteran",
   "psikologi",
   "ekonomi",

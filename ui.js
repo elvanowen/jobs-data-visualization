@@ -1,6 +1,6 @@
 var MAJOR_LIST = [
   "komputer",
-  "bisnis",
+  "kewirausahaan",
   "kedokteran",
   "psikologi",
   "ekonomi",
@@ -87,7 +87,7 @@ $(document).ready(function() {
     // Default selected majors
     $('.dropdown-filter-majors').dropdown('set selected', 'komputer');
     $('.dropdown-filter-majors').dropdown('set selected', 'kedokteran');
-    $('.dropdown-filter-majors').dropdown('set selected', 'bisnis');
+    $('.dropdown-filter-majors').dropdown('set selected', 'kewirausahaan');
   } else {
     var selectedMajorsArr = selectedMajors.split(',');
 
