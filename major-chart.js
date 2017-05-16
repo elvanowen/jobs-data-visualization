@@ -16,8 +16,8 @@ var drawJobChart = function () {
   var y = d3.scaleLinear().range([height, 0]);
   var color = d3.scaleOrdinal(d3.schemeCategory10);
   
-  x.domain([0, d3.max(jobData, function (d) { return d.employee })]);
-  y.domain([0, d3.max(jobData, function (d) { return d.salary })]);
+  x.domain([0, d3.max(jobData, function (d) { return d.employee[5].total })]);
+  y.domain([0, d3.max(jobData, function (d) { return d.salary[5].total })]);
   color.domain(jobData, function (d) { return d.name });
   
   g.append("g")
@@ -35,11 +35,15 @@ var drawJobChart = function () {
     .attr("fill", "#000")
     .text("Pendapatan");
   
+  g.append("path")
+    .attr("d", "M 0 " + height + " L " + width + " " + height)
+    .attr("stroke", "#000");
+  
   g.selectAll("circle")
     .data(jobData)
     .enter().append("circle")
-      .attr("cx", function (d) { return x(d.employee); })
-      .attr("cy", function (d) { return y(d.salary) })
+      .attr("cx", function (d) { return x(d.employee[5].total); })
+      .attr("cy", function (d) { return y(d.salary[5].total); })
       .attr("r", 10)
       .attr("fill", function (d) { return color(d.name) });
   
@@ -47,7 +51,7 @@ var drawJobChart = function () {
     .data(jobData)
     .enter().append("text")
       .attr("transform", function (d) {
-        return "translate(" + (x(d.employee) + 12) + ", " + y(d.salary) + ")";
+        return "translate(" + (x(d.employee[5].total) + 12) + ", " + y(d.salary[5].total) + ")";
       })
       .attr("dy", "0.35em")
       .style("font", "11px sans-serif")
