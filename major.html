@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="semantic-ui/components/popup.min.css">
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.css">
 
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="d3.min.js"></script>
@@ -20,13 +21,25 @@
   <script type="text/javascript" src="semantic-ui/components/sidebar.min.js"></script>
   <script type="text/javascript" src="semantic-ui/components/popup.min.js"></script>
   <script type="text/javascript" src="js-cookie.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud-1.0.4.min.js"></script>
 </head>
-<body style="font-family:'Robot', sans-serif;">
+<style>
+  div.jqcloud span.w10 { font-size: 500%; }
+  div.jqcloud span.w9 { font-size: 450%; }
+  div.jqcloud span.w8 { font-size: 400%; }
+  div.jqcloud span.w7 { font-size: 350%; }
+  div.jqcloud span.w6 { font-size: 300%; }
+  div.jqcloud span.w5 { font-size: 250%; }
+  div.jqcloud span.w4 { font-size: 200%; }
+  div.jqcloud span.w3 { font-size: 150%; }
+  div.jqcloud span.w2 { font-size: 100%; }
+  div.jqcloud span.w1 { font-size: 50%; }
+</style>
+<body style="font-family:'Roboto', sans-serif; background:#e3f2fd">
   <div class="container-fluid" style="margin:0; padding:0">
     <div class="header-page" style="background-image:url('img/bg-blue.jpg'); height:150px;">
-      <h1 class="major-title" style="text-align:center; padding:60px; color:#fff; font-family:'Robot', sans-serif; font-size:36px"></h1>
+      <h1 class="major-title" style="text-align:center; padding:60px; color:#fff;font-size:36px"></h1>
     </div>
-    
     <div class="ui pointing menu menu-main" style="margin:0">
       <a class="item active" href="index.html">Beranda</a>
       <div class="right menu">
@@ -63,7 +76,7 @@
       </div>
     </div>
     <div class="ui basic segment" style="padding: 1em 3em 0;">
-      <div class="row" style="margin-bottom: 20px">
+      <div class="row" style="margin-bottom: 10px">
         <div class="col-md-4" style="color:#fff">
           <div class="ui segment" style="text-align: center; background:#e91e63">
             <h4 class="ui header" style="color:#28324a; padding-bottom:2px">Rata-Rata Pendapatan</h4>
@@ -89,70 +102,77 @@
         </div>
       </div>
 
-      <div class="row" style="margin-bottom: 30px">
+      <div class="row" style="margin-bottom:60px">
         <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="ui segment" style="height:280px">
-                <h4 id="major-title" class="major-title" style="font-family:'Roboto', sans-serif; color:#28324a"></h4>
-                <h5 id="description-major" style="font-weight:normal"></h5>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="ui segment">
-                <svg id="word-cloud" width="400" height="250"></svg>
-              </div>
-            </div>
-          </div>
-          <div class="row" style="margin-top: 15px">
+          <div class="row" style="margin-top:30px">
             <div class="col-md-12">
-              <div class="clearfix">
-                <div class="pull-right">
-                  <div class="ui floating labeled icon dropdown button dropdown-filter-year-job-chart">
-                    <i class="filter icon"></i>
-                    <span class="text">Filter</span>
-                    <div class="menu">
-                      <div class="header">
-                        <i class="tags icon"></i>
-                        Filter by year
+              <div class="row" style="margin-bottom:20px">
+                <div class="col-md-6">
+                  <h4 style="padding:13px; color:#28324a;margin:0">Prospek Pekerjaan</h4>
+                </div>
+                <div class="col-md-6">
+                  <div class="clearfix">
+                    <div class="pull-right">
+                      <div class="ui floating labeled icon dropdown button dropdown-filter-year-job-chart">
+                        <i class="filter icon"></i>
+                        <span class="text">Filter</span>
+                        <div class="menu">
+                          <div class="header">
+                            <i class="tags icon"></i>
+                            Filter by year
+                          </div>
+                          <div class="divider"></div>
+                          <div class="item">2011</div>
+                          <div class="item">2012</div>
+                          <div class="item">2013</div>
+                          <div class="item">2014</div>
+                          <div class="item">2015</div>
+                          <div class="item">2016</div>
+                        </div>
                       </div>
-                      <div class="divider"></div>
-                      <div class="item">2011</div>
-                      <div class="item">2012</div>
-                      <div class="item">2013</div>
-                      <div class="item">2014</div>
-                      <div class="item">2015</div>
-                      <div class="item">2016</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="ui segment">
-                <h4 style="padding:13px; font-family:'Roboto', sans-serif; color:#28324a">Prospek Pekerjaan</h4>
+              <div class="row" style="margin-bottom:10px">
                 <svg id="job-chart" width="700" height="400"></svg>
               </div>
             </div>
           </div>
-        </div>        
-        <div class="col-md-4" style="padding-left:0">
-          <div class="ui segment">
-            <h4 style="padding-lfet:13px; font-family:'Roboto', sans-serif;">Gender</h4>
-            <svg id="gender-chart" width="320" height="250"></svg>
-          </div>
-          <div class="ui segment">
-            <h4 class="ui header" style="text-align:center; color:#28324a">Daftar Universitas</h4>
-            <table class="ui single line table">
-              <thead>
-                <th>Nama</th>
-                <th>Lokasi</th>
-                <th>Kuota</th>
-                <th>Lulusan</th>
-              </thead>
-              <tbody id="university-table"></tbody>
-            </table>
+          <div class="row" style="margin-bottom:30px">
+            <div class="col-md-12">
+              <h4 style="padding:13px; color:#28324a; margin:0">Opini Tentang Jurusan</h4>
+              <center><div id="word-cloud" style="width: 80%; height:260px; margin:0"></div></center>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="col-md-4">
+          <div class="row" style="margin-top:15px">
+            <div class="col-md-12">
+              <div class="ui segment">
+                <h4 id="major-title" class="major-title" style="color:#28324a"></h4>
+                <h5 id="description-major" style="font-weight:normal"></h5>
+              </div>
+              <div class="ui segment">
+                <h4 style="padding-left:13px; margin:0">Gender</h4>
+                <svg id="gender-chart" width="320" height="250"></svg>
+              </div>            
+              <div class="ui segment">
+                <h4 class="ui header" style="color:#28324a">Daftar Universitas</h4>
+                <table class="ui single line table">
+                  <thead>
+                    <th>Nama</th>
+                    <th>Lokasi</th>
+                    <th>Kuota</th>
+                    <th>Lulusan</th>
+                  </thead>
+                  <tbody id="university-table"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>        
     </div>
   </div>
   <script type="text/javascript" src="major-chart.js"></script>
