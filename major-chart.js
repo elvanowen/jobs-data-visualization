@@ -10,7 +10,7 @@ var drawJobChart = function (selectedYear) {
   d3.select("#job-chart").html("");
   
   var svg = d3.select("#job-chart"),
-    margin = {top: 20, right: 80, bottom: 30, left: 80},
+    margin = {top: 20, right: 100, bottom: 30, left: 100},
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -150,34 +150,42 @@ var drawGenderChart = function () {
 var drawWordCloud = function () {
   var jobData = jsonData.opinion;
   
-  var color = d3.scaleOrdinal(d3.schemeCategory20);
+  // var color = d3.scaleOrdinal(d3.schemeCategory20);
   
-  var x = d3.scaleLinear().range([0, 30]);
-  x.domain([0, d3.max(jobData, function (d) { return d.total; })]);
+  // var x = d3.scaleLinear().range([0, 30]);
+  // x.domain([0, d3.max(jobData, function (d) { return d.total; })]);
   
-  var draw = function () {
-    var svg = d3.select("#word-cloud")
-      .append("g")
-      .attr("transform", "translate(-50, -10)")
-      .selectAll("text")
-      .data(jobData)
-      .enter().append("text")
-      .style("font-size", function(d) { return x(d.size) + "px"; })
-      .style("fill", function(d, i) { return color(i); })
-      .attr("transform", function(d) {
-        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-      })
-      .text(function(d) {
-        console.log(d.name);
-        return d.name; });
-  };
+  // var draw = function () {
+  //   var svg = d3.select("#word-cloud")
+  //     .append("g")
+  //     .attr("transform", "translate(-50, -10)")
+  //     .selectAll("text")
+  //     .data(jobData)
+  //     .enter().append("text")
+  //     .style("font-size", function(d) { return x(d.size) + "px"; })
+  //     .style("fill", function(d, i) { return color(i); })
+  //     .attr("transform", function(d) {
+  //       return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+  //     })
+  //     .text(function(d) {
+  //       console.log(d.name);
+  //       return d.name; });
+  // };
   
-  d3.layout.cloud().size([320, 250])
-    .words(jobData)
-    .rotate(0)
-    .fontSize(function(d) { return d.total; })
-    .on("end", draw)
-    .start();
+  // d3.layout.cloud().size([320, 250])
+  //   .words(jobData)
+  //   .rotate(0)
+  //   .fontSize(function(d) { return d.total; })
+  //   .on("end", draw)
+  //   .start();
+
+  $('#word-cloud').jQCloud(jobData, {
+    autoResize: true,
+    fontSize: {
+      from: 0.8,
+      to: 0.5
+    }
+  });
 };
 
 var fillUniversityTable = function () {

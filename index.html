@@ -20,7 +20,7 @@
   <script type="text/javascript" src="semantic-ui/components/popup.min.js"></script>
   <script type="text/javascript" src="js-cookie.js"></script>
 </head>
-<body>
+<body style="background:#e3f2fd">
   <div class="container-fluid" style="margin:0; padding:0">
     <div class="header-page" style="background-image:url('img/bg-blue.jpg'); height:150px;">
       <h1 style="text-align:center; padding:60px; color:#fff; font-family:'Robot', sans-serif; font-size:36px">
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="ui basic segment" style="padding: 1em 4em 0;">
-      <div class="row" style="margin-bottom: 10px">
+      <div class="row" style="margin-bottom: 15px">
         <div class="col-md-4" style="color:#fff">
           <div class="ui horizontal segments">
             <div class="ui segment" style="background:#e91e63">
@@ -104,45 +104,33 @@
         </div>
       </div>
 
-      <div class="row" style="margin-bottom: 15px">
+      <div class="row" style="margin-bottom:35px">
         <div class="col-md-9">
-          <div class="ui segment">
-            <div class="header">
-              <h4 style="padding:13px; font-family:'Roboto',sans-serif; color:#28324a">RATA-RATA PENDAPATAN BERDASARKAN JURUSAN</h4>
-            </div>
-            <svg id="salary-chart" width="850" height="300" style="margin-left: 20px"></svg>
-            <svg id="color-legend" width="850" height="18"></svg>
+          <div class="header">
+            <h4 style="padding:13px; font-family:'Roboto',sans-serif; color:#28324a">RATA-RATA PENDAPATAN BERDASARKAN JURUSAN</h4>
           </div>
+          <svg id="salary-chart" width="850" height="300" style="margin-left: 20px"></svg>
+          <svg id="color-legend" width="850" height="18"></svg>
         </div>
         <div class="col-md-3" style="padding-left:0">
-          <div class="ui segments">
-            <div class="ui segment">
-              <h4 style="font-family:'Roboto', sans-serif; color:#28324a">JUDUL KETERANGAN</h4>
-            </div>
-            <div class="ui segment">
-              <h4 style="font-size:17px; font-weight:normal; line-height:1.8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat.</h4>
-            </div>
-          </div>
+          <h4 style="font-family:'Roboto', sans-serif; color:#28324a">JUDUL KETERANGAN</h4>            
+          <h4 style="font-size:17px; font-weight:normal; line-height:1.8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat.</h4>
         </div>
       </div>
 
-      <div class="row" style="margin-bottom:30px">
+      <div class="row" style="margin-bottom:35px">
         <div class="col-md-6">
-          <div class="ui segment">
-            <div class="header">
-              <h4 style="padding:13px; font-family:'Roboto', sans-serif;">INDEKS PEMINAT JURUSAN</h4>
-            </div>
-            <svg id="passion-chart" width="540" height="200"></svg>
+          <div class="header">
+            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">INDEKS PEMINAT JURUSAN</h4>
           </div>
+          <svg id="passion-chart" width="600" height="200"></svg>
         </div>
 
-        <div class="col-md-6" style="padding-left:0">
-          <div class="ui segment">
-            <div class="header">
-              <h4 style="padding:13px; font-family:'Roboto', sans-serif;">BIAYA PENDIDIKAN</h4>
-            </div>
-            <svg id="cost-chart" width="540" height="200"></svg>
+        <div class="col-md-6" style="padding-left:20px">          
+          <div class="header">
+            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">BIAYA PENDIDIKAN</h4>
           </div>
+          <svg id="cost-chart" width="600" height="200"></svg>
         </div>
       </div>
     </div>
