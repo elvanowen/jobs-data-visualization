@@ -1,6 +1,11 @@
 var major = "";
 var jsonData = {};
 
+var updateDescription = function () {
+  $("#major-title").html(major);
+  $("#description-major").html(jsonData.description);
+};
+
 var drawJobChart = function () {
   d3.select("#job-chart").html("");
   
@@ -142,6 +147,39 @@ var drawGenderChart = function () {
     .text("Pria");
 };
 
+var drawWordCloud = function () {
+  var jobData = jsonData.opinion;
+  
+  var color = d3.scaleOrdinal(d3.schemeCategory20);
+  
+  var x = d3.scaleLinear().range([0, 30]);
+  x.domain([0, d3.max(jobData, function (d) { return d.total; })]);
+  
+  var draw = function () {
+    var svg = d3.select("#word-cloud")
+      .append("g")
+      .attr("transform", "translate(-50, -10)")
+      .selectAll("text")
+      .data(jobData)
+      .enter().append("text")
+      .style("font-size", function(d) { return x(d.size) + "px"; })
+      .style("fill", function(d, i) { return color(i); })
+      .attr("transform", function(d) {
+        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+      })
+      .text(function(d) {
+        console.log(d.name);
+        return d.name; });
+  };
+  
+  d3.layout.cloud().size([320, 250])
+    .words(jobData)
+    .rotate(0)
+    .fontSize(function(d) { return d.total; })
+    .on("end", draw)
+    .start();
+};
+
 var fillUniversityTable = function () {
   $("#university-table").html("");
   
@@ -181,6 +219,8 @@ $(document).ready(function () {
     $(".major-title").html(major);
     drawJobChart();
     drawGenderChart();
+    drawWordCloud();
+    updateDescription();
     fillUniversityTable();
     fillDescriptionMajor();
   });

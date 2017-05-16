@@ -13,6 +13,7 @@
 
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="d3.min.js"></script>
+  <script type="text/javascript" src="d3.layout.cloud.js"></script>
   <script type="text/javascript" src="underscore-min.js"></script>
   <script type="text/javascript" src="semantic-ui/semantic.js"></script>
   <script type="text/javascript" src="semantic-ui/components/dropdown.min.js"></script>
@@ -92,13 +93,15 @@
         <div class="col-md-8">
           <div class="row">
             <div class="col-md-6">
-              <div class="ui segment">
-                <h4 class="major-title" style="font-family:'Roboto', sans-serif; color:#28324a"></h4>
+              <div class="ui segment" style="height:280px">
+                <h4 id="major-title" class="major-title" style="font-family:'Roboto', sans-serif; color:#28324a"></h4>
                 <h5 id="description-major" style="font-weight:normal"></h5>
               </div>
             </div>
             <div class="col-md-6">
-              <h1>Word Cloud</h1>
+              <div class="ui segment">
+                <svg id="word-cloud" width="400" height="250"></svg>
+              </div>
             </div>
           </div>
           <div class="row" style="margin-top: 15px">
