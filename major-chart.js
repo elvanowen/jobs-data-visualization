@@ -49,14 +49,14 @@ var drawJobChart = function (selectedYear) {
     .enter().append("circle")
       .attr("cx", function (d) { return x(_.find(d.employee, { year: selectedYear }).total); })
       .attr("cy", function (d) { return y(_.find(d.salary, { year: selectedYear }).total); })
-      .attr("r", 10)
+      .attr("r", function (d) { return (_.find(d.workload, { year: selectedYear }).total); })
       .attr("fill", function (d) { return color(d.name) });
   
   g.selectAll("text.job")
     .data(jobData)
     .enter().append("text")
       .attr("transform", function (d) {
-        return "translate(" + (x(_.find(d.employee, { year: selectedYear }).total) + 12) + ", " + y(_.find(d.salary, { year: selectedYear }).total) + ")";
+        return "translate(" + (x(_.find(d.employee, { year: selectedYear }).total) + 12) + ", " + y(_.find(d.salary, { year: selectedYear }).total) + (_.find(d.workload, { year: selectedYear }).total) + ")";
       })
       .attr("dy", "0.35em")
       .style("font", "11px sans-serif")
