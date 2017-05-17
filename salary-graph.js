@@ -764,18 +764,21 @@ var updateMajorActive = function () {
 
 var updateChart = function () {
   var comparisonChart = $("#trend-checkbox").is(":checked");
-  year = $("#year").val();
+
+  year = $('.dropdown-filter-year').dropdown('get value');
+
+  console.log('year', year, window.year);
   
   drawSalaryChart();
   if (!comparisonChart) {
-    $("#year").prop('disabled', true);
+    $('.dropdown-filter-year').closest('.pull-right').addClass('hidden');
     
     $("#trend-div").css("display", "block");
     $("#comparison-div").css("display", "none");
     drawCostChart();
     drawPassionChart();
   } else {
-    $("#year").prop('disabled', false);
+    $('.dropdown-filter-year').closest('.pull-right').removeClass('hidden');
     
     $("#trend-div").css("display", "none");
     $("#comparison-div").css("display", "block");
@@ -795,10 +798,16 @@ $(document).ready(function () {
   $("#trend-checkbox").change(function () {
     updateChart();
   });
-  
-  $("#year").change(function () {
-    updateChart();
+
+  $('.dropdown-filter-year').dropdown({
+    onChange: function(value, text, $selectedItem) {
+      updateChart();
+    }
   });
 
   updateChart();
+
+  setTimeout(function() {
+    $('.dropdown-filter-year').dropdown('set selected', '2016');
+  }, 0)
 });

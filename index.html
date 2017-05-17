@@ -119,22 +119,31 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-2">
+        <div class="pull-right" style="margin-left: 20px">
+          <div class="ui floating labeled icon dropdown button dropdown-filter-year">
+            <i class="filter icon"></i>
+            <span class="text">Filter</span>
+            <div class="menu">
+              <div class="header">
+                <i class="tags icon"></i>
+                Filter by year
+              </div>
+              <div class="divider"></div>
+              <div class="item">2011</div>
+              <div class="item">2012</div>
+              <div class="item">2013</div>
+              <div class="item">2014</div>
+              <div class="item">2015</div>
+              <div class="item">2016</div>
+            </div>
+          </div>
+        </div>
+        <div class="pull-right">
           <span style="margin-left: 15px">Tren</span> &nbsp;&nbsp;&nbsp;&nbsp;
           <div class="ui toggle checkbox">
             <input id="trend-checkbox" type="checkbox" name="public">
             <label>Perbandingan</label>
           </div>
-        </div>
-        <div class="col-sm-1">
-          <select id="year" class="form-control" style="margin-top: 5px">
-            <option value="2011">2011</option>
-            <option value="2012">2012</option>
-            <option value="2013">2013</option>
-            <option value="2014">2014</option>
-            <option value="2015">2015</option>
-            <option value="2016" selected="selected">2016</option>
-          </select>
         </div>
       </div>
 
