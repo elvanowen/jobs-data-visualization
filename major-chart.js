@@ -18,6 +18,41 @@ var formatNumber = function (num) {
   });
 };
 
+var updateSummaryCard = function () {
+  d3.json("data-salary.json", function (err, root) {
+    if (err) throw err;
+    
+    var salaryData = root.averageAnnualSalaries["2016"];
+    salaryData = _.sortBy(salaryData, 'salary').reverse();
+    _.each(salaryData, function (data, index) {
+      if (data.major === major) {
+        $("#salary-amount").html(formatMoney(data.salary));
+        $("#salary-rank").html(index + 1);
+      }
+    });
+    
+    var costData = root.averageCost["2016"];
+    costData = _.sortBy(costData, "cost").reverse();
+    _.each(costData, function (data, index){
+      if (data.major === major) {
+        $("#cost-amount").html(formatMoney(data.cost));
+        $("#cost-rank").html(index + 1);
+      }
+    });
+  
+    var passionData = root.passions["2016"];
+    passionData = _.sortBy(passionData, "total").reverse();
+    _.each(passionData, function (data, index){
+      if (data.major === major) {
+        $("#passion-amount").html(formatNumber(data.total));
+        $("#passion-rank").html(index + 1);
+      }
+    });
+    
+    console.log(salaryData);
+  });
+};
+
 var drawJobChart = function (selectedYear) {
   d3.select("#job-chart").html("");
   
@@ -247,6 +282,7 @@ $(document).ready(function () {
     updateDescription();
     fillUniversityTable();
     fillDescriptionMajor();
+    updateSummaryCard();
   });
 });
 

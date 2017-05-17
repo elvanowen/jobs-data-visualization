@@ -90,7 +90,7 @@ var drawSalaryChart = function () {
         return d3.min(c.salaries, function (d) {
           return d.value;
         });
-      }),
+      }) * 0.75,
       Math.max(20000000, d3.max(data, function (c) {
         return d3.max(c.salaries, function (d) {
           return d.value;
