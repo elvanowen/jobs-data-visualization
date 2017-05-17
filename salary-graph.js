@@ -37,7 +37,7 @@ var formatMoney = function (num) {
 
 var drawSalaryChart = function () {
   d3.select("#salary-chart").html("");
-  d3.select("#color-legend").html("");
+  d3.select("#color-legend-salary").html("");
 
   var svg = d3.select("#salary-chart"),
     margin = {top: 30, right: 20, bottom: 30, left: 60},
@@ -90,7 +90,7 @@ var drawSalaryChart = function () {
         return d3.min(c.salaries, function (d) {
           return d.value;
         });
-      }),
+      }) * 0.75,
       Math.max(20000000, d3.max(data, function (c) {
         return d3.max(c.salaries, function (d) {
           return d.value;
@@ -151,8 +151,8 @@ var drawSalaryChart = function () {
           return z(j[i].parentNode.__data__.id);
         })
         .append("svg:title")
-        .text(function (d, i, j) {
-          return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + formatMoney(d.value);
+          .text(function (d, i, j) {
+            return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + formatMoney(d.value);
         });
 
     major.append("path")
@@ -179,8 +179,8 @@ var drawSalaryChart = function () {
       });
   });
 
-  d3.select("#color-legend").html("");
-  var legend = d3.select("#color-legend")
+  d3.select("#color-legend-salary").html("");
+  var legend = d3.select("#color-legend-salary")
       .append("g")
       .attr("font-family", "sans-serif")
       .attr("font-size", 12)
@@ -190,7 +190,7 @@ var drawSalaryChart = function () {
       .attr("transform", function(d, i) {
         var column = i % 10;
         var row = Math.floor(i / 10);
-        return "translate(" + (width / 10) * column + "," + row * 30 + ")";
+        return "translate(" + (width / 8) * column + "," + row * 30 + ")";
       });
 
   legend.append("circle")
@@ -202,13 +202,14 @@ var drawSalaryChart = function () {
   legend.append("text")
     .attr("x", 45)
     .attr("y", 9.5)
-    .attr("dy", "0.32em")
+    .attr("dy", "0.32em")    
     .text(function(d) { return d; });
 
 };
 
 var drawCostChart = function () {
   d3.select("#cost-chart").html("");
+  d3.select("#color-legend-cost").html("");
 
   var svg = d3.select("#cost-chart"),
     margin = {top: 30, right: 20, bottom: 30, left: 70},
@@ -303,6 +304,25 @@ var drawCostChart = function () {
       .enter().append("g")
       .attr("class", "city");
 
+    var circle = g.selectAll(".circle-g")
+      .data(data)
+      .enter().append("g");
+    
+    circle.selectAll("circle.point-circle")
+      .data(function (d) {
+        return d.salaries })
+      .enter().append("circle")
+        .attr("cx", function (d) { return x(parseTime(d.year)) })
+        .attr("cy", function (d) { return y(d.value) })
+        .attr("r", 6)
+        .attr("fill", function (d, i, j) {
+          return z(j[i].parentNode.__data__.id);
+        })
+        .append("svg:title")
+        .text(function (d, i, j) {
+          return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + formatMoney(d.value);
+        });
+
     major.append("path")
       .attr("class", "line")
       .attr("d", function (d) {
@@ -327,10 +347,37 @@ var drawCostChart = function () {
       });
   });
 
+  d3.select("#color-legend-cost").html("");
+  var legend = d3.select("#color-legend-cost")
+      .append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 12)
+    .selectAll("g")
+    .data(_.map(majorActiveArray, function (t) {return capitalizeFirstLetter(t)}))
+      .enter().append("g")
+      .attr("transform", function(d, i) {
+        var column = i % 10;
+        var row = Math.floor(i / 10);
+        return "translate(" + (width / 5) * column + "," + row * 30 + ")";
+      });
+
+  legend.append("circle")
+    .attr("cx", 32)
+    .attr("cy", 9)
+    .attr("r", 8)
+    .attr("fill", z);
+
+  legend.append("text")
+    .attr("x", 45)
+    .attr("y", 9.5)
+    .attr("dy", "0.32em")    
+    .text(function(d) { return d; });
+
 };
 
 var drawPassionChart = function () {
   d3.select("#passion-chart").html("");
+  d3.select("#color-legend-passion").html("");
 
   var svg = d3.select("#passion-chart"),
     margin = {top: 30, right: 20, bottom: 30, left: 60},
@@ -438,6 +485,25 @@ var drawPassionChart = function () {
       .enter().append("g")
       .attr("class", "city");
 
+    var circle = g.selectAll(".circle-g")
+      .data(data)
+      .enter().append("g");
+    
+    circle.selectAll("circle.point-circle")
+      .data(function (d) {
+        return d.salaries })
+      .enter().append("circle")
+        .attr("cx", function (d) { return x(parseTime(d.year)) })
+        .attr("cy", function (d) { return y(d.value) })
+        .attr("r", 6)
+        .attr("fill", function (d, i, j) {
+          return z(j[i].parentNode.__data__.id);
+        })
+        .append("svg:title")
+        .text(function (d, i, j) {
+          return j[i].parentNode.parentNode.__data__.id + " (" + d.year + "): " + d.value;
+        });
+
     major.append("path")
       .attr("class", "line")
       .attr("d", function (d) {
@@ -461,6 +527,32 @@ var drawPassionChart = function () {
         return d.id;
       });
   });
+
+  d3.select("#color-legend-passion").html("");
+  var legend = d3.select("#color-legend-passion")
+      .append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 12)
+    .selectAll("g")
+    .data(_.map(majorActiveArray, function (t) {return capitalizeFirstLetter(t)}))
+      .enter().append("g")
+      .attr("transform", function(d, i) {
+        var column = i % 10;
+        var row = Math.floor(i / 10);
+        return "translate(" + (width / 5) * column + "," + row * 30 + ")";
+      });
+
+  legend.append("circle")
+    .attr("cx", 32)
+    .attr("cy", 9)
+    .attr("r", 8)
+    .attr("fill", z);
+
+  legend.append("text")
+    .attr("x", 45)
+    .attr("y", 9.5)
+    .attr("dy", "0.32em")    
+    .text(function(d) { return d; });
 
 };
 

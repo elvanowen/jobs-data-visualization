@@ -6,6 +6,53 @@ var updateDescription = function () {
   $("#description-major").html(jsonData.description);
 };
 
+var formatMoney = function (num) {
+  return "Rp " + num.toFixed(2).replace(/./g, function(c, i, a) {
+      return i && c !== "." && ((a.length - i) % 3 === 0) ? '.' + c : c;
+    });
+};
+
+var formatNumber = function (num) {
+  return num.toFixed(0).replace(/./g, function(c, i, a) {
+    return i && c !== "." && ((a.length - i) % 3 === 0) ? '.' + c : c;
+  });
+};
+
+var updateSummaryCard = function () {
+  d3.json("data-salary.json", function (err, root) {
+    if (err) throw err;
+    
+    var salaryData = root.averageAnnualSalaries["2016"];
+    salaryData = _.sortBy(salaryData, 'salary').reverse();
+    _.each(salaryData, function (data, index) {
+      if (data.major === major) {
+        $("#salary-amount").html(formatMoney(data.salary));
+        $("#salary-rank").html(index + 1);
+      }
+    });
+    
+    var costData = root.averageCost["2016"];
+    costData = _.sortBy(costData, "cost").reverse();
+    _.each(costData, function (data, index){
+      if (data.major === major) {
+        $("#cost-amount").html(formatMoney(data.cost));
+        $("#cost-rank").html(index + 1);
+      }
+    });
+  
+    var passionData = root.passions["2016"];
+    passionData = _.sortBy(passionData, "total").reverse();
+    _.each(passionData, function (data, index){
+      if (data.major === major) {
+        $("#passion-amount").html(formatNumber(data.total));
+        $("#passion-rank").html(index + 1);
+      }
+    });
+    
+    console.log(salaryData);
+  });
+};
+
 var drawJobChart = function (selectedYear) {
   d3.select("#job-chart").html("");
   
@@ -49,14 +96,18 @@ var drawJobChart = function (selectedYear) {
     .enter().append("circle")
       .attr("cx", function (d) { return x(_.find(d.employee, { year: selectedYear }).total); })
       .attr("cy", function (d) { return y(_.find(d.salary, { year: selectedYear }).total); })
-      .attr("r", 10)
-      .attr("fill", function (d) { return color(d.name) });
+      .attr("r", function (d) { return (_.find(d.workload, { year: selectedYear }).total); })
+      .attr("fill", function (d) { return color(d.name) })
+      .append("svg:title")
+        .text(function (d) {
+          return d.name + "\nGaji: " + formatMoney(_.find(d.salary, { year: selectedYear }).total) + "\nJumlah Lowongan Kerja: " + formatNumber(_.find(d.employee, { year: selectedYear }).total);
+        });
   
   g.selectAll("text.job")
     .data(jobData)
     .enter().append("text")
       .attr("transform", function (d) {
-        return "translate(" + (x(_.find(d.employee, { year: selectedYear }).total) + 12) + ", " + y(_.find(d.salary, { year: selectedYear }).total) + ")";
+        return "translate(" + (x(_.find(d.employee, { year: selectedYear }).total) + 12) + ", " + y(_.find(d.salary, { year: selectedYear }).total) + (_.find(d.workload, { year: selectedYear }).total) + ")";
       })
       .attr("dy", "0.35em")
       .style("font", "11px sans-serif")
@@ -231,6 +282,7 @@ $(document).ready(function () {
     updateDescription();
     fillUniversityTable();
     fillDescriptionMajor();
+    updateSummaryCard();
   });
 });
 
