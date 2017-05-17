@@ -120,7 +120,7 @@ var drawGenderChart = function () {
   var svg = d3.select("#gender-chart");
   var sideMargin = 10;
   var topMargin = 15;
-  var bottomMargin = 40;
+  var bottomMargin = 50;
   var centerMargin = 20;
   var graphWidth = (svg.attr("width") / 2) - sideMargin - centerMargin;
   var graphHeight = svg.attr("height") - topMargin - bottomMargin;
@@ -168,6 +168,22 @@ var drawGenderChart = function () {
       .attr("width", function (d) { return x(d.total) })
       .style("fill", "steelblue");
   
+  gMale.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0, " + graphHeight + ")")
+    .call(d3.axisBottom(x).ticks(4));
+  
+  var xFemale = d3.scaleLinear().range([graphWidth, 0]);
+  xFemale.domain([0, d3.max(maleData, function (d) { return d.total })]);
+  g.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0, " + graphHeight + ")")
+    .call(d3.axisBottom(xFemale).ticks(4));
+  
+  g.append("path")
+    .attr("d", "M 0 " + graphHeight + " L " + (2 * (graphWidth + centerMargin)) + " " + graphHeight)
+    .attr("stroke", "#000");
+  
   g.selectAll("rect.female")
     .data(femaleData)
     .enter().append("rect")
@@ -181,20 +197,20 @@ var drawGenderChart = function () {
   var gLegend = g.append("g").attr("transform", "translate(0, " + graphHeight + ")");
   gLegend.append("circle")
     .attr("cx", 50)
-    .attr("cy", 20)
+    .attr("cy", 30)
     .attr("r", 5)
     .attr("fill", "#d9534f");
   gLegend.append("text")
-    .attr("transform", "translate(60, 25)")
+    .attr("transform", "translate(60, 35)")
     .text("Wanita");
   
   gLegend.append("circle")
     .attr("cx", 220)
-    .attr("cy", 20)
+    .attr("cy", 30)
     .attr("r", 5)
     .attr("fill", "steelblue");
   gLegend.append("text")
-    .attr("transform", "translate(230, 25)")
+    .attr("transform", "translate(230, 35)")
     .text("Pria");
 };
 
