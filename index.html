@@ -118,10 +118,30 @@
         </div>
       </div>
 
-      <div class="row" style="margin-bottom:80px">
+      <div class="row">
+        <div class="col-sm-2">
+          <span style="margin-left: 15px">Tren</span> &nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="ui toggle checkbox">
+            <input id="trend-checkbox" type="checkbox" name="public">
+            <label>Perbandingan</label>
+          </div>
+        </div>
+        <div class="col-sm-1">
+          <select id="year" class="form-control" style="margin-top: 5px">
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016" selected="selected">2016</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="trend-div" class="row" style="margin-bottom:80px">
         <div class="col-md-6">
           <div class="header">
-            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">INDEKS PEMINAT JURUSAN</h4>
+            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">PEMINAT JURUSAN</h4>
           </div>
           <svg id="passion-chart" width="600" height="200" style="margin-left: 15px"></svg>
           <svg id="color-legend-passion" width="600" height="18" style="margin-left:50px"></svg>
@@ -133,6 +153,24 @@
           </div>
           <svg id="cost-chart" width="600" height="200" style="margin-left: 15px"></svg>
           <svg id="color-legend-cost" width="600" height="18" style="margin-left:50px"></svg>
+        </div>
+      </div>
+
+      <div id="comparison-div" class="row" style="margin-bottom:80px">
+        <div class="col-md-6">
+          <div class="header">
+            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">PEMINAT JURUSAN</h4>
+          </div>
+          <svg id="passion-bar-chart" width="600" height="200" style="margin-left: 15px"></svg>
+          <!--<svg id="color-legend-passion" width="600" height="18" style="margin-left:50px"></svg>-->
+        </div>
+
+        <div class="col-md-6" style="padding-left:20px">
+          <div class="header">
+            <h4 style="padding:13px; font-family:'Roboto', sans-serif;">BIAYA PENDIDIKAN</h4>
+          </div>
+          <svg id="cost-bar-chart" width="600" height="200" style="margin-left: 15px"></svg>
+          <!--<svg id="color-legend-cost" width="600" height="18" style="margin-left:50px"></svg>-->
         </div>
       </div>
     </div>

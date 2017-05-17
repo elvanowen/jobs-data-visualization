@@ -1,5 +1,6 @@
 var majorActive = {};
 var majorActiveArray = [];
+var year = "2016";
 
 var MAJOR_LIST = [
   "komputer",
@@ -556,6 +557,198 @@ var drawPassionChart = function () {
 
 };
 
+var drawCostBarChart = function () {
+  d3.select("#cost-bar-chart").html("");
+  
+  var svg = d3.select("#cost-bar-chart"),
+    margin = {top: 30, right: 20, bottom: 30, left: 70},
+    width = svg.attr("width") - margin.left - margin.right,
+    height = svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+  var parseTime = d3.timeParse("%Y");
+  
+  var x = d3.scaleBand().rangeRound([0, width]).padding(0.2),
+    y = d3.scaleLinear().range([height, 0]),
+    z = d3.scaleOrdinal(d3.schemeCategory10);
+  
+  d3.json("data-salary.json", function (err, root) {
+    if (err) throw err;
+    
+    console.log(root);
+    var data = _.map(majorActiveArray, function (major) {
+      major = capitalizeFirstLetter(major);
+      var costData = root.averageCost[year];
+      console.log(costData);
+      var retData = {};
+      _.each(costData, function (d) {
+        if (d.major === major) {
+          retData = {
+            major: major,
+            cost: d.cost
+          }
+        }
+      });
+      
+      return retData;
+    });
+    console.log(data);
+    
+    x.domain(_.map(majorActiveArray, capitalizeFirstLetter));
+    
+    y.domain([
+      0,
+      d3.max(data, function (d) {
+        return d.cost
+      }) * 1.2
+    ]);
+    
+    z.domain(data.map(function (c) {
+      return c.major;
+    }));
+    
+    g.append("g")
+      .attr("class", "axis axis--x")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+    
+    g.append("g")
+      .attr("class", "axis axis--y")
+      .call(d3.axisLeft(y)
+        .tickValues([50000000, 100000000, 150000000, 200000000]))
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("fill", "#000")
+      .text("Biaya");
+    
+    var dashPoint = [50000000, 100000000, 150000000, 200000000];
+    var dashLine = g.selectAll(".dash")
+      .data(dashPoint)
+      .enter().append("g")
+      .attr("transform", function(d) {return "translate(0, " + y(d) + ")";})
+      .append("path")
+      .attr("d", "M 0 0 L " + width + " 0")
+      .attr("stroke", "#DDD");
+    
+    g.append("path")
+      .attr("d", "M 0 " + height + " L " + width + " " + height)
+      .attr("stroke", "#000");
+    
+    g.selectAll("rect")
+      .data(data)
+      .enter().append("rect")
+        .attr("x", function (d) { return x(d.major) })
+        .attr("y", function (d) { return y(d.cost) })
+        .attr("width", function (d) { return x.bandwidth() })
+        .attr("height", function (d) { return height - y(d.cost) })
+        .attr("fill", function (d) { return z(d.major) });
+  });
+};
+
+var drawPassionBarChart = function () {
+  d3.select("#passion-bar-chart").html("");
+  
+  var svg = d3.select("#passion-bar-chart"),
+    margin = {top: 30, right: 20, bottom: 30, left: 70},
+    width = svg.attr("width") - margin.left - margin.right,
+    height = svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+  var x = d3.scaleBand().rangeRound([0, width]).padding(0.2),
+    y = d3.scaleLinear().range([height, 0]),
+    z = d3.scaleOrdinal(d3.schemeCategory10);
+  
+  d3.json("data-salary.json", function (err, root) {
+    if (err) throw err;
+    
+    console.log(root);
+    var data = _.map(majorActiveArray, function (major) {
+      major = capitalizeFirstLetter(major);
+      var costData = root.passions[year];
+      console.log(costData);
+      var retData = {};
+      _.each(costData, function (d) {
+        if (d.major === major) {
+          retData = {
+            major: major,
+            cost: d.total
+          }
+        }
+      });
+      
+      return retData;
+    });
+    console.log(data);
+    
+    x.domain(_.map(majorActiveArray, capitalizeFirstLetter));
+  
+    var point = [];
+    var maxValue = d3.max(data, function (d) {
+      return d.cost
+    });
+    var divider;
+    if (maxValue > 28000) {
+      divider = 7000;
+    } else {
+      divider = 5000;
+    }
+    for (var i = 1; i <= Math.floor(maxValue / divider); i++) {
+      point.push(i * divider);
+    }
+    
+    y.domain([
+      0,
+      d3.max(data, function (d) {
+        return d.cost
+      }) * 1.2
+    ]);
+    
+    z.domain(data.map(function (c) {
+      return c.major;
+    }));
+    
+    g.append("g")
+      .attr("class", "axis axis--x")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+    
+    g.append("g")
+      .attr("class", "axis axis--y")
+      .call(d3.axisLeft(y)
+        .tickValues(point))
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("fill", "#000")
+      .text("Biaya");
+    
+    var dashPoint = point;
+    var dashLine = g.selectAll(".dash")
+      .data(dashPoint)
+      .enter().append("g")
+      .attr("transform", function(d) {return "translate(0, " + y(d) + ")";})
+      .append("path")
+      .attr("d", "M 0 0 L " + width + " 0")
+      .attr("stroke", "#DDD");
+    
+    g.append("path")
+      .attr("d", "M 0 " + height + " L " + width + " " + height)
+      .attr("stroke", "#000");
+    
+    g.selectAll("rect")
+      .data(data)
+      .enter().append("rect")
+      .attr("x", function (d) { return x(d.major) })
+      .attr("y", function (d) { return y(d.cost) })
+      .attr("width", function (d) { return x.bandwidth() })
+      .attr("height", function (d) { return height - y(d.cost) })
+      .attr("fill", function (d) { return z(d.major) });
+  });
+};
+
 var updateMajorActive = function () {
   majorActiveArray = [];
 
@@ -569,15 +762,43 @@ var updateMajorActive = function () {
   });
 };
 
+var updateChart = function () {
+  var comparisonChart = $("#trend-checkbox").is(":checked");
+  year = $("#year").val();
+  
+  drawSalaryChart();
+  if (!comparisonChart) {
+    $("#year").prop('disabled', true);
+    
+    $("#trend-div").css("display", "block");
+    $("#comparison-div").css("display", "none");
+    drawCostChart();
+    drawPassionChart();
+  } else {
+    $("#year").prop('disabled', false);
+    
+    $("#trend-div").css("display", "none");
+    $("#comparison-div").css("display", "block");
+    drawCostBarChart();
+    drawPassionBarChart();
+  }
+};
+
+// window.updateChart = updateChart();
+
 $(document).ready(function () {
   $("input.major-filter").change(function () {
     updateMajorActive();
-    drawSalaryChart();
-    drawCostChart();
-    drawPassionChart();
+    updateChart();
+  });
+  
+  $("#trend-checkbox").change(function () {
+    updateChart();
+  });
+  
+  $("#year").change(function () {
+    updateChart();
   });
 
-  drawSalaryChart();
-  drawCostChart();
-  drawPassionChart();
+  updateChart();
 });

@@ -70,9 +70,7 @@ $(document).ready(function() {
       Cookies.set('selectedMajors', value);
 
       window.updateMajorActive && updateMajorActive(values);
-      window.drawSalaryChart && drawSalaryChart();
-      window.drawCostChart && drawCostChart();
-      window.drawPassionChart && drawPassionChart();
+      window.updateChart && window.updateChart();
 
       $('.item.dynamic-item').remove();
       for (var i=0;i<values.length;i++) {
