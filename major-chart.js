@@ -6,6 +6,18 @@ var updateDescription = function () {
   $("#description-major").html(jsonData.description);
 };
 
+var formatMoney = function (num) {
+  return "Rp " + num.toFixed(2).replace(/./g, function(c, i, a) {
+      return i && c !== "." && ((a.length - i) % 3 === 0) ? '.' + c : c;
+    });
+};
+
+var formatNumber = function (num) {
+  return num.toFixed(0).replace(/./g, function(c, i, a) {
+    return i && c !== "." && ((a.length - i) % 3 === 0) ? '.' + c : c;
+  });
+};
+
 var drawJobChart = function (selectedYear) {
   d3.select("#job-chart").html("");
   
@@ -50,7 +62,11 @@ var drawJobChart = function (selectedYear) {
       .attr("cx", function (d) { return x(_.find(d.employee, { year: selectedYear }).total); })
       .attr("cy", function (d) { return y(_.find(d.salary, { year: selectedYear }).total); })
       .attr("r", function (d) { return (_.find(d.workload, { year: selectedYear }).total); })
-      .attr("fill", function (d) { return color(d.name) });
+      .attr("fill", function (d) { return color(d.name) })
+      .append("svg:title")
+        .text(function (d) {
+          return d.name + "\nGaji: " + formatMoney(_.find(d.salary, { year: selectedYear }).total) + "\nJumlah Lowongan Kerja: " + formatNumber(_.find(d.employee, { year: selectedYear }).total);
+        });
   
   g.selectAll("text.job")
     .data(jobData)
